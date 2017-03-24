@@ -42,6 +42,13 @@ bot.dialog('/profile', [
     },
     function (session, results) {
         session.userData.name = results.response;
+        //session.endDialog();
+    },
+    function (session, results) {
+        builder.Prompts.text(session, 'Can I help you?');
+    },
+    function (session, results) {
+        session.userData.name = results.response;
         session.endDialog();
     }
 ]);
