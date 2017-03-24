@@ -35,6 +35,4 @@ bot.dialog('What is your name', function (session) {
 bot.dialog('How old are you', function (session) {
     session.send("1 week");
 });
-bot.dialog('/', function (session) {
-    session.send("Please come again");
-});
+
