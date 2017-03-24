@@ -33,6 +33,9 @@ bot.dialog('/', [
     },
     function (session, results) {
         session.send('Hello %s!', session.userData.name);
+    },
+    function (session) {
+        session.send('How are you',session.userData.name)
     }
 ]);
 
