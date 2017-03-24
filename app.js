@@ -26,12 +26,4 @@ server.post('/api/messages', connector.listen());
 bot.dialog('/', function (session) {
     session.send("I am working");
 });
-bot.dialog('Hi', function (session) {
-    session.send("Hello");
-});
-bot.dialog('How are you', function (session) {
-    session.send("I am fine thanks");
-});
-bot.dialog('Bye', function (session) {
-    session.send("Good Bye");
-});
+
