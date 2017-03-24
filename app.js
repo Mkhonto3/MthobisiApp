@@ -33,9 +33,6 @@ bot.dialog('/', [
     },
     function (session, results) {
         session.send('Hello %s!', session.userData.name);
-    },
-    function (session) {
-        session.send('How are you',session.userData.name)
     }
 ]);
 
@@ -48,4 +45,11 @@ bot.dialog('/profile', [
         session.endDialog();
     }
 ]);
+bot.dialog('How are you', [
+      function (session, results) {
+         session.send('I am good and you %s!', session.userData.name);
+        session.endDialog();
+    }
+]);
+
 
