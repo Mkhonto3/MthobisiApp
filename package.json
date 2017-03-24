@@ -1,0 +1,23 @@
+{
+  "name": "mthobisiapp",
+  "version": "1.0.0",
+  "description": "a sample app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mkhonto3/MthobisiApp.git"
+  },
+  "author": "Mthobisi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mkhonto3/MthobisiApp/issues"
+  },
+  "homepage": "https://github.com/Mkhonto3/MthobisiApp#readme",
+  "dependencies": {
+    "botbuilder": "^3.7.0",
+    "restify": "^4.3.0"
+  }
+}
