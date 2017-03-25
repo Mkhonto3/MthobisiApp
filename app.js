@@ -1,4 +1,4 @@
-var restify = require('restify');
+/*var restify = require('restify');
 var builder = require('botbuilder');
 
 //=========================================================
@@ -49,6 +49,38 @@ bot.dialog('How are you', [
       function (session) {
        session.send('I am fine and you');
     }
-]);
+]);*/
+
+
+var builder = require('botbuilder');
+var restify = require('restify');
+var request = require('request');
+
+//Server setup
+var server = restify.createServer();
+
+server.listen(process.env.port || process.env.PORT || 3978, function() {
+console.log('%s listening to %s', server.name, server.url);
+});
+
+//Get secrets from server environment
+var connector = new builder.ChatConnector({
+    appId: 'f7d843c6-24e4-448d-8f62-70d910b29b6f',
+    appPassword: 'OOmVxg1kNob7O72jgPCdjdi'
+});
+
+//Create chat bot
+var bot = new builder.UniversalBot(connector);
+//Handle bot framework messages
+server.post('/api/messages', connector.listen());
+server.get(/.*/, restify.serveStatic({
+'directory': '.',
+'default': 'index.html'
+}));
+
+//LUIS Model
+var model = process.env.model || 'https://api.projectoxford.ai/luis/v1/application?xxxxxxx';
+var recognizer = new builder.LuisRecognizer(model);
+var dialog = new builder.IntentDialog({ recognizers: [recognizer]});
 
 
