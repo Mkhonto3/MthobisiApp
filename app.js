@@ -46,8 +46,8 @@ bot.dialog('/profile', [
     }
 ]);
 bot.dialog('How are you', [
-      function (session, results) {
-       session.show('I am fine and you');
+      function (session) {
+       session.send('I am fine and you');
     }
 ]);
 
