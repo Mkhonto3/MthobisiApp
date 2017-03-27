@@ -17,39 +17,24 @@ var connector = new builder.ChatConnector({
     appPassword: 'OOmVxg1kNob7O72jgPCdjdi'
 });
 var bot = new builder.UniversalBot(connector);
-server.get('/api/messages', connector.listen());
+server.post('/api/messages', connector.listen());
 
 //=========================================================
 // Bots Dialogs
 //=========================================================
 
-bot.dialog('/', [
-    function (session, args, next) {
-        if (!session.userData.name) {
-            session.beginDialog('/profile');
-        } else {
-            next();
-        }
-    },
-    function (session, results) {
-        session.send('Hello %s!', session.userData.name);
-    }
-]);
-
-bot.dialog('/profile', [
-    function (session) {
-        builder.Prompts.text(session, 'Hi! What is your name?');
-    },
-    function (session, results) {
-        session.userData.name = results.response;
-        session.endDialog();
-    }
-]);
-bot.dialog('How are you', 
-      function (session) {
-       session.send('I am fine and you');
-    }
-);
+bot.dialog('Hi', function (session) {
+    session.send("Greetings");
+});
+bot.dialog('How are you', function (session) {
+    session.send("Fine thanks");
+});
+bot.dialog('What is your name', function (session) {
+    session.send("Computer");
+});
+bot.dialog('How old are you', function (session) {
+    session.send("1 week");
+});
 //LUIS Model
 var model = process.env.model || 'https://api.projectoxford.ai/luis/v1/application?xxxxxxx';
 var recognizer = new builder.LuisRecognizer(model);
