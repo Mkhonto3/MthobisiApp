@@ -78,7 +78,7 @@ bot.dialog('reset', function (session) {
 }).triggerAction({ matches: /^reset/i });
 
 // print current city dialog
-bot.dialog('printCurrentCity', function (session) {
+bot.dialog('printCurrentProgramming', function (session) {
     var userName = session.userData[UserNameKey];
     var defaultProgram = session.conversationData[Programming];
     var userProgram = session.privateConversationData[Programming];
@@ -91,15 +91,15 @@ bot.dialog('printCurrentCity', function (session) {
     } else {
         session.endDialog('Hey %s, I\'m currently configured to search for things in %s.', userName, defaultProgram);
     }
-}).triggerAction({ matches: /^current city/i });
+}).triggerAction({ matches: /^current programming/i });
 
 // change current city dialog
-bot.dialog('changeCurrentCity', function (session, args) {
+bot.dialog('changeCurrentProgramming', function (session, args) {
     // change default city
     var newProgram = args.intent.matched[1].trim();
     session.conversationData[Programming] = newProgram;
     var userName = session.userData[UserNameKey];
-    session.endDialog('All set %s. From now on, all my searches will be for things in %s.', userName, newCity);
+    session.endDialog('All set %s. From now on, all my searches will be for things in %s.', userName, newProgram);
 }).triggerAction({ matches: /^change programming to (.*)/i });
 
 // change my current city dialog
