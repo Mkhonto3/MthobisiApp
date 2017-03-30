@@ -30,7 +30,7 @@ var ProgrammingKey = 'Programming';
 // Setup bot with default dialog
 var bot = new builder.UniversalBot(connector, function (session) {
 
-    // initialize with default city
+    // initialize with default Programming
     if (!session.conversationData[ProgrammingKey]) {
         session.conversationData[ProgrammingKey] = 'Java';
         session.send('Welcome to the Search Programming bot. I\'m currently configured to search for things in %s', session.conversationData[ProgrammingKey]);
@@ -75,7 +75,7 @@ bot.dialog('reset', function (session) {
     session.endDialog('Ups... I\'m suffering from a memory loss...');
 }).triggerAction({ matches: /^reset/i });
 
-// print current city dialog
+// print current programming dialog
 bot.dialog('printCurrentProgramming', function (session) {
     var userName = session.userData[UserNameKey];
     var defaultProgram = session.conversationData[ProgrammingKey];
@@ -91,22 +91,22 @@ bot.dialog('printCurrentProgramming', function (session) {
     }
 }).triggerAction({ matches: /^current programming/i });
 
-// change current city dialog
+// change current programming dialog
 bot.dialog('changeCurrentProgramming', function (session, args) {
-    // change default city
+    // change default programming
     var newProgram = args.intent.matched[1].trim();
     session.conversationData[ProgrammingKey] = newProgram;
     var userName = session.userData[UserNameKey];
     session.endDialog('All set %s. From now on, all my searches will be for things in %s.', userName, newProgram);
 }).triggerAction({ matches: /^change programming to (.*)/i });
 
-// change my current city dialog
+// change my current programming dialog
 bot.dialog('changeMyCurrentProgramming', function (session, args) {
-    // change user's city
+    // change user's programming
     var newProgram = args.intent.matched[1].trim();
     session.privateConversationData[ProgrammingKey] = newProgram;
     var userName = session.userData[UserNameKey];
-    session.endDialog('All set %s. I have overridden the city to %s just for you', userName, newProgram);
+    session.endDialog('All set %s. I have overridden the programming to %s just for you', userName, newProgram);
 }).triggerAction({ matches: /^change my programming to (.*)/i });
 
 // Greet dialog
