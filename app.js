@@ -61,7 +61,7 @@ bot.dialog('search', function (session, args, next) {
     var userName = session.userData[UserKey];
     var msgT = session.message.text.trim();
     session.send('%s, wait a few seconds. Searching for \'%s\' in \'%s\'...', userName, msgT, city);
-    session.send('https://www.bing.com/search?q=%s', encodeURIComponent(msgT + ' in ' + city));
+    session.send('https://www.google.com/search?q=%s', encodeURIComponent(msgT + ' in ' + city));
     session.endDialog();
 });
 
@@ -117,5 +117,5 @@ bot.dialog('greet', new builder.SimpleDialog(function (session, results) {
         return session.endDialog('Welcome %s! %s', results.response, Hmsg);
     }
 
-    builder.Prompts.text(session, 'Before get started, please tell me your name?');
+    builder.Prompts.text(session, 'Can you please tell me your name?');
 }));
