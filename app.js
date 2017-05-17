@@ -22,7 +22,7 @@ server.post('/api/messages', connector.listen());
 //=========================================================
 // Bots Dialogs
 //=========================================================
-var Hmsg = '\n * If you want to know which city I\'m using for my searches type \'current city\'. \n * Want to change the current city? Type \'change city to cityName\'. \n * Want to change it just for your searches? Type \'change my city to cityName\'';
+var Hmsg = '\n 1. If you looking Settlement Request. \n 2. Are you looking for Tax Certificate. \n 3. Are you looking for any statements';
 var UserKey = 'UserName';
 var UserWelKey = 'UserWelcomed';
 var TownKey = 'City';
@@ -75,7 +75,7 @@ bot.dialog('reset', function (session) {
     session.endDialog('Ups... I\'m suffering from a memory loss...');
 }).triggerAction({ matches: /^reset/i });
 
-// print current city dialog
+// Settlement Request
 bot.dialog('printCurrentCity', function (session) {
     var userName = session.userData[UserKey];
     var defaultCity = session.conversationData[TownKey];
@@ -89,32 +89,32 @@ bot.dialog('printCurrentCity', function (session) {
     } else {
         session.endDialog('Hey %s, I\'m currently configured to search for things in %s.', userName, defaultCity);
     }
-}).triggerAction({ matches: /^current city/i });
+}).triggerAction({ matches: /^1/i });
 
-// change current city dialog
+// Tax certificate
 bot.dialog('changeCurrentCity', function (session, args) {
     // change default city
     var newCity = args.intent.matched[1].trim();
     session.conversationData[TownKey] = newCity;
     var userName = session.userData[UserKey];
     session.endDialog('All set %s. From now on, all my searches will be for things in %s.', userName, newCity);
-}).triggerAction({ matches: /^change city to (.*)/i });
+}).triggerAction({ matches: /^2/i });
 
-// change my current city dialog
+// Statement
 bot.dialog('changeMyCurrentCity', function (session, args) {
     // change user's city
     var newCity = args.intent.matched[1].trim();
     session.privateConversationData[TownKey] = newCity;
     var userName = session.userData[UserKey];
     session.endDialog('All set %s. I have overridden the city to %s just for you', userName, newCity);
-}).triggerAction({ matches: /^change my city to (.*)/i });
+}).triggerAction({ matches: /^3/i });
 
 // Greet dialog
 bot.dialog('greet', new builder.SimpleDialog(function (session, results) {
     if (results && results.response) {
         session.userData[UserKey] = results.response;
         session.privateConversationData[UserWelKey] = true;
-        return session.endDialog('Welcome %s! %s', results.response, Hmsg);
+        return session.endDialog('Welcome %s! %s choose from the list', results.response, Hmsg);
     }
 
     builder.Prompts.text(session, 'Can you please tell me your name?');
