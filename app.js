@@ -8,9 +8,9 @@ var builder = require('botbuilder');
 // Setup Restify Server
 var server = restify.createServer();
 server.listen(process.env.port || process.env.PORT || 3978, function () {
-   console.log('%s listening to %s', server.name, server.url); 
+   console.log('%s listening to %s', server.name, server.url);
 });
-  
+
 // Create chat bot
 var connector = new builder.ChatConnector({
     appId: 'f7d843c6-24e4-448d-8f62-70d910b29b6f',
@@ -31,12 +31,12 @@ var TownKey = 'City';
 var bot = new builder.UniversalBot(connector, function (session) {
 
     // initialize with default city
-    if (!session.conversationData[§]) {
+    if (!session.conversationData[TownKey]) {
         session.conversationData[TownKey] = 'Gauteng';
-        session.send('Welcome to the Wesbank chatbot. I\'m currently configured to search for things in %s');
+        session.send('Welcome to the Search Within a City chatbot. I\'m currently configured to search for things in %s', session.conversationData[TownKey]);
     }
 
-    // is user's name set? 
+    // is user's name set?
     var userName = session.userData[UserKey];
     if (!userName) {
         return session.beginDialog('greet');
@@ -45,25 +45,24 @@ var bot = new builder.UniversalBot(connector, function (session) {
     // has the user been welcomed to the conversation?
     if (!session.privateConversationData[UserWelKey]) {
         session.privateConversationData[UserWelKey] = true;
-        return session.send('Welcome back %s!);
+        return session.send('Welcome back %s! Remember the rules: %s', userName, Hmsg);
     }
+
     session.beginDialog('search');
 });
+
 // Enable Conversation Data persistence
 bot.set('persistConversationData', true);
+
 // search dialog
 bot.dialog('search', function (session, args, next) {
     // perform search
     var city = session.privateConversationData[TownKey] || session.conversationData[TownKey];
     var userName = session.userData[UserKey];
     var msgT = session.message.text.trim();
-    if(msgT == ".*Statement*."){
-       https://www.wesbank.co.za/wesbankcoza/account/
-       session.send('%s, wait a few seconds. Searching for \'%s\' in \'%s\'...', userName, msgT);
-      session.send('https://www.wesbank.co.za/search?q=%s', encodeURIComponent(msgT));
-      session.endDialog();
-    }
-  
+    session.send('%s, wait a few seconds. Searching for \'%s\' in \'%s\'...', userName, msgT, city);
+    session.send('https://www.google.com/search?q=%s', encodeURIComponent(msgT + ' in ' + city));
+    session.endDialog();
 });
 
 // reset bot dialog
