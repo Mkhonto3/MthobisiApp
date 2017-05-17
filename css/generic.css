@@ -1,0 +1,292 @@
+@CHARSET "ISO-8859-1";
+
+.row {
+	border: solid 0px #000;
+}
+
+/********************************/
+/*       Alignment              */
+/********************************/
+.align-center {
+	text-align: center;
+}
+
+.align-right {
+	text-align: right;
+}
+
+.align-left {
+	text-align: left;
+}
+
+@media (min-width : 768px) {
+	.align-header {
+		text-align: right;
+	}
+}
+
+@media (max-width : 767px) {
+	.align-header {
+		text-align: left;
+	}
+}
+
+/********************************/
+/*       Padding                */
+/********************************/
+.pad-none {
+	padding: 0px!important;
+}
+
+.pad-top-none {
+	padding-top: 0px!important;
+}
+
+.pad-top-small {
+	padding-top: 5px;
+}
+
+.pad-top-medium {
+	padding-top: 10px;
+}
+
+.pad-top-large {
+	padding-top: 15px;
+}
+
+.pad-top-extra-large {
+	padding-top: 20px;
+}
+
+.pad-bottom-none {
+	padding-bottom: 0px!important;
+}
+
+.pad-bottom-small {
+	padding-bottom: 5px;
+}
+
+.pad-bottom-medium {
+	padding-bottom: 10px;
+}
+
+.pad-bottom-large {
+	padding-bottom: 15px;
+}
+
+.pad-right-small {
+	padding-right: 5px;
+}
+
+.pad-right-medium {
+	padding-right: 10px;
+}
+
+.pad-right-large {
+	padding-right: 15px;
+}
+
+.pad-left-none {
+	padding-left: 0!important;
+}
+
+.pad-left-small {
+	padding-left: 5px;
+}
+
+.pad-left-medium {
+	padding-left: 10px;
+}
+
+.pad-left-large {
+	padding-left: 15px;
+}
+
+/********************************/
+/*       Margins                */
+/********************************/
+.margin-top-none {
+	margin-top: 0px;
+}
+
+.margin-top-small {
+	margin-top: 5px;
+}
+
+.margin-top-medium {
+	margin-top: 10px;
+}
+
+.margin-top-large {
+	margin-top: 15px;
+}
+
+.margin-right-small {
+	margin-right: 5px;
+}
+
+.margin-right-mediun {
+	margin-right: 10px;
+}
+
+.margin-right-large {
+	margin-right: 15px;
+}
+
+.margin-left-small {
+	margin-left: 5px;
+}
+
+.margin-left-medium {
+	margin-left: 10px;
+}
+
+.margin-left-large {
+	margin-left: 15px;
+}
+
+.margin-bottom-none {
+	margin-bottom: 0px;
+}
+
+.margin-bottom-small {
+	margin-bottom: 5px;
+}
+
+.margin-bottom-medium {
+	margin-bottom: 10px;
+}
+
+.margin-bottom-large {
+	margin-bottom: 15px;
+}
+
+.margin-left-neg-small {
+	margin-left: -5px;
+}
+
+.margin-left-neg-medium {
+	margin-left: -10px;
+}
+
+.margin-left-neg-large {
+	margin-left: -15px;
+}
+
+.margin-right-neg-small {
+	margin-right: -5px;
+}
+
+.margin-right-neg-medium {
+	margin-right: -10px;
+}
+
+.margin-right-neg-large {
+	margin-right: -15px;
+}
+
+/********************************/
+/*       General                */
+/********************************/
+.strong {
+	font-weight: bold;
+}
+
+.to-uppercase {
+	text-transform: uppercase;
+}
+
+.default-radio-buttons input {
+	margin-right: 10px;
+}
+
+.alert {
+	padding: 8px 15px 8px 15px;
+	border: 1px solid transparent;
+	border-radius: 0px;
+	margin-bottom: 10px;
+}
+
+.alert-danger {
+	color: #fff;
+	background-color: #cc0000;
+	border-color: #cc0000;
+}
+
+/********************************/
+/*        scroll to top         */
+/********************************/
+
+.scroll-top-wrapper {
+    position: fixed;
+	opacity: 0;
+	visibility: hidden;
+	overflow: hidden;
+	text-align: center;
+	z-index: 99999999;
+    background-color: #cecece;
+	color: #eeeeee;
+	width: 50px;
+	height: 48px;
+	line-height: 48px;
+	right: 30px;
+	bottom: 30px;
+	padding-top: 2px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.scroll-top-wrapper:hover {
+	background-color: #888888;
+}
+.scroll-top-wrapper.show {
+    visibility:visible;
+    cursor:pointer;
+	opacity: 1.0;
+}
+.scroll-top-wrapper i.fa {
+	line-height: inherit;
+}
+
+.mobile-show {
+	display:none!important;
+
+}
+@media (max-width: 767px) {
+.mobile-hide {
+	display:none!important;
+}
+
+.mobile-show {
+	display:block!important;
+
+}
+
+}
+
+.block-no-border {
+	border:none!important;
+}
+
+p {
+	line-height:1;	
+}
+
+.block-img-rounded {
+  border-radius: 4px!important;
+}
+
+.prevent-ios-tel-no {
+	pointer-events: none !important; 
+}
+
+.prevent-ios-tel-no > a {
+	text-decoration: none !important; 
+	color: inherit !important;
+}
