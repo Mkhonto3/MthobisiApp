@@ -47,13 +47,10 @@ var bot = new builder.UniversalBot(connector, function (session) {
         session.privateConversationData[UserWelKey] = true;
         return session.send('Welcome back %s!);
     }
-
     session.beginDialog('search');
 });
-
 // Enable Conversation Data persistence
 bot.set('persistConversationData', true);
-
 // search dialog
 bot.dialog('search', function (session, args, next) {
     // perform search
