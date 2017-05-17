@@ -45,7 +45,7 @@ var bot = new builder.UniversalBot(connector, function (session) {
     // has the user been welcomed to the conversation?
     if (!session.privateConversationData[UserWelKey]) {
         session.privateConversationData[UserWelKey] = true;
-        return session.send('Welcome back %s! Remember the rules: %s', userName, Hmsg);
+        return session.send('Welcome back %s! Choose from the list: %s', userName, Hmsg);
     }
 
     session.beginDialog('search');
@@ -114,7 +114,7 @@ bot.dialog('greet', new builder.SimpleDialog(function (session, results) {
     if (results && results.response) {
         session.userData[UserKey] = results.response;
         session.privateConversationData[UserWelKey] = true;
-        return session.endDialog('Welcome %s! %s choose from the list', results.response, Hmsg);
+        return session.endDialog('Welcome %s! Choose from the list: %s ', results.response, Hmsg);
     }
 
     builder.Prompts.text(session, 'Can you please tell me your name?');
