@@ -61,8 +61,6 @@ bot.dialog('search', function (session, args, next) {
     var userName = session.userData[UserKey];
     var msgT = session.message.text.trim();
    
-  
-   session.reditect('https://www.wesbank.co.za/search?q=%s', encodeURIComponent(msgT))
     session.send('%s, wait a few seconds. Searching for \'%s\' in \'%s\'...', userName, msgT, city);
     session.send('https://www.wesbank.co.za/search?q=%s', encodeURIComponent(msgT));
     session.endDialog();
@@ -79,28 +77,26 @@ bot.dialog('reset', function (session) {
 }).triggerAction({ matches: /^reset/i });
 
 // Settlement Request
-bot.dialog('printCurrentCity', function (session) {
+bot.dialog('1', function (session) {
     var userName = session.userData[UserKey];
     var defaultCity = session.conversationData[TownKey];
     var userCity = session.privateConversationData[TownKey];
-    if (!defaultCity) {
-        session.endDialog('I don\'t have a search city configured yet.');
-    } else if (userCity) {
-        session.endDialog(
-            '%s, you have overridden the city. Your searches are for things in %s. The default conversation city is %s.',
-            userName, userCity, defaultCity);
-    } else {
-        session.endDialog('Hey %s, I\'m currently configured to search for things in %s.', userName, defaultCity);
-    }
+    var msgT = 'Settlement request';
+    session.send('%s, wait a few seconds. Searching for \'%s\' in \'%s\'...', userName, msgT, city);
+    session.send('https://www.wesbank.co.za/search?q=%s', encodeURIComponent(msgT));
+    session.endDialog();
 }).triggerAction({ matches: /^1/i });
 
 // Tax certificate
-bot.dialog('changeCurrentCity', function (session, args) {
+bot.dialog('2', function (session, args) {
     // change default city
     var newCity = args.intent.matched[1].trim();
     session.conversationData[TownKey] = newCity;
     var userName = session.userData[UserKey];
-    session.endDialog('All set %s. From now on, all my searches will be for things in %s.', userName, newCity);
+    var msgT = 'Tax Certificate';
+    session.send('%s, wait a few seconds. Searching for \'%s\' in \'%s\'...', userName, msgT, city);
+    session.send('https://www.wesbank.co.za/search?q=%s', encodeURIComponent(msgT));
+    session.endDialog();
 }).triggerAction({ matches: /^2/i });
 
 // Statement
@@ -109,7 +105,11 @@ bot.dialog('changeMyCurrentCity', function (session, args) {
     var newCity = args.intent.matched[1].trim();
     session.privateConversationData[TownKey] = newCity;
     var userName = session.userData[UserKey];
-    session.endDialog('All set %s. I have overridden the city to %s just for you', userName, newCity);
+    
+    var msgT = 'Statement';
+    session.send('%s, wait a few seconds. Searching for \'%s\' in \'%s\'...', userName, msgT, city);
+    session.send('https://www.wesbank.co.za/search?q=%s', encodeURIComponent(msgT));
+    session.endDialog();
 }).triggerAction({ matches: /^3/i });
 
 // Greet dialog
