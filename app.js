@@ -31,9 +31,9 @@ var TownKey = 'City';
 var bot = new builder.UniversalBot(connector, function (session) {
 
     // initialize with default city
-    if (!session.conversationData[TownKey]) {
+    if (!session.conversationData[§]) {
         session.conversationData[TownKey] = 'Gauteng';
-        session.send('Welcome to the Search Within a City chatbot. I\'m currently configured to search for things in %s', session.conversationData[TownKey]);
+        session.send('Welcome to the Wesbank chatbot. I\'m currently configured to search for things in %s');
     }
 
     // is user's name set? 
@@ -45,7 +45,7 @@ var bot = new builder.UniversalBot(connector, function (session) {
     // has the user been welcomed to the conversation?
     if (!session.privateConversationData[UserWelKey]) {
         session.privateConversationData[UserWelKey] = true;
-        return session.send('Welcome back %s! Remember the rules: %s', userName, Hmsg);
+        return session.send('Welcome back %s!);
     }
 
     session.beginDialog('search');
@@ -60,9 +60,13 @@ bot.dialog('search', function (session, args, next) {
     var city = session.privateConversationData[TownKey] || session.conversationData[TownKey];
     var userName = session.userData[UserKey];
     var msgT = session.message.text.trim();
-    session.send('%s, wait a few seconds. Searching for \'%s\' in \'%s\'...', userName, msgT, city);
-    session.send('https://www.google.com/search?q=%s', encodeURIComponent(msgT + ' in ' + city));
-    session.endDialog();
+    if(msgT == ".*Statement*."){
+       https://www.wesbank.co.za/wesbankcoza/account/
+       session.send('%s, wait a few seconds. Searching for \'%s\' in \'%s\'...', userName, msgT);
+      session.send('https://www.wesbank.co.za/search?q=%s', encodeURIComponent(msgT));
+      session.endDialog();
+    }
+  
 });
 
 // reset bot dialog
