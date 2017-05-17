@@ -33,7 +33,7 @@ var bot = new builder.UniversalBot(connector, function (session) {
     // initialize with default city
     if (!session.conversationData[TownKey]) {
         session.conversationData[TownKey] = 'Gauteng';
-        session.send('Welcome to the Search Within a City chatbot. I\'m currently configured to search for things in %s', session.conversationData[TownKey]);
+        session.send('Welcome to the Wesbnank %s', session.conversationData[TownKey]);
     }
 
     // is user's name set?
