@@ -1,0 +1,185 @@
+/*!
+  Paper Collapse v0.4.0
+
+  Collapsible paper cards.
+
+  Made with love by bbo - ©2015 Alexander Rühle
+  MIT License http://opensource.org/licenses/MIT
+*/
+
+.btn-turquoise {
+    background: #15a3b2!important;
+    color: #ffffff;
+    border: 0px;
+    text-align: center;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    cursor: pointer;
+    padding: 10px 30px;
+}
+
+.margin-top-lg {
+    margin-top: 40px;
+}
+
+.margin-bottom-lg {
+    margin-bottom: 20px;
+}
+
+.collapse-card {
+    background-image: linear-gradient(to bottom, #ffffff, #eaeaea);
+    border-radius: 2px;
+    color: #3c474e;
+    border-left: 6px solid #68d1db;
+    -webkit-transition: all 0s ease-in-out 0s;
+    -moz-transition: all 0s ease-in-out 0s;
+    -o-transition: all 0s ease-in-out 0s;
+    transition: all 0s ease-in-out 0s;
+    box-shadow: 0 2px 3px 2px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 0!important;
+}
+
+.collapse-card:nth-child(1) {
+    border-left: 6px solid #69d2dc;
+}
+
+.collapse-card:nth-child(2) {
+    border-left: 6px solid #15a3b2;
+}
+
+.collapse-card:nth-child(3) {
+    border-left: 6px solid #007582;
+}
+
+.collapse-card:nth-child(4) {
+    border-left: 6px solid #7b878e;
+}
+
+.collapse-card:nth-child(5) {
+    border-left: 6px solid #3c474e;
+}
+
+.collapse-card:nth-child(7) {
+    border-left: 6px solid #15a3b2;
+}
+
+.collapse-card:nth-child(8) {
+    border-left: 6px solid #007582;
+}
+
+.collapse-card:nth-child(9) {
+    border-left: 6px solid #7b878e;
+}
+
+.collapse-card:nth-child(10) {
+    border-left: 6px solid #3c474e;
+}
+
+.collapse-card-second-group {
+    border-left: 6px solid #68d1db!important;
+}
+
+.collapse-card-second-group:nth-child(4) {
+    border-left: 6px solid #15a3b2!important;
+}
+
+.collapse-card * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.collapse-card.active {
+    position: relative;
+    background: transparent;
+    background-color: #fff !important;
+    border-bottom: 1px solid #eee;
+    color: #fff;
+    -moz-box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.5) !important;
+    -webkit-box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.5) !important;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.5) !important;
+    z-index: 200;
+    margin: 0rem -0rem
+}
+
+.collapse-card.active h3 {
+    color: #15a3b2 !important;
+}
+
+.collapse-card__heading {
+    cursor: pointer;
+    padding: 1rem;
+    position: relative;
+    min-height: 90px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#upload-page .collapse-card__heading, #upload-page .collapse-card__title {
+    white-space: initial !important;
+}
+
+#reviewDetails .collapse-card__heading {
+    white-space: initial !important;
+}
+
+.collapse-card__heading:before, .collapse-card__heading:after {
+    content: " ";
+    display: table
+}
+
+.collapse-card__heading:after {
+    clear: both
+}
+
+.collapse-card__heading i {
+    float: left
+}
+
+.collapse-card__heading::after {
+    color: #404040;
+    font-family: 'FontAwesome';
+    font-size: 1rem;
+    line-height: 2rem;
+    padding-left: .4rem;
+    position: absolute;
+    right: 1rem;
+    top: 1rem
+}
+
+.collapse-card__title {
+    font-size: 30px;
+    line-height: 2rem;
+    text-align: left;
+    margin: 0 2rem 0 0;
+    overflow: hidden;
+    text-overflow: ellipsis !important;
+    font-weight: 300;
+    white-space: nowrap
+}
+
+.collapse-card__body {
+    display: none;
+}
+
+.collapse-card-invalid {
+    border-left-color: #cf3f27 !important
+}
+
+.collapse-card .collapse-card__heading .collapseHeaderImage, .collapse-card .collapse-card__heading .grey-line {
+    display: none;
+    margin: 0 auto;
+}
+
+.collapse-card.active .collapse-card__heading .collapseHeaderImage, .collapse-card.active .collapse-card__heading .grey-line {
+    display: block;
+    margin: 0 auto;
+}
+
+.collapse-card.active .collapse-card__heading .collapse-card__title-center {
+    text-align: center!important;
+}
+
+
+/*# sourceMappingURL=paper-collapse.min.css.map */

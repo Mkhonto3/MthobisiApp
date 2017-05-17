@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* CSS Document */
+polyline {
+	stroke-dashoffset: 0;
+}
+svg {
+  width: 60px;
+  height: 60px;
+  padding: 0 9px;
+  font-size: 20px;
+  font-weight: 100;
+  position: absolute;
+  right: 5px;
+  top: 10px;
+  cursor: pointer;
+  float: right;
+	/*background: #fff;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;*/
+}
+.success__check {
+	fill: none;
+	stroke: #15a3b3;
+	stroke-width: 10;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke-miterlimit: 10;
+	stroke-dasharray: 400;
+}

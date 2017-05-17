@@ -1,0 +1,2989 @@
+/* MEDIA QUERIES */
+@media (min-width: 2280px) {
+  #affordability .svg-dot-right, #intoTrade .svg-dot-right, #personalise .svg-dot-right, #congratulationsDealApproved.congratsNextSteps .svg-dot-right, #congratulationsDealApproved.congratsDetailsSent .svg-dot-right {
+    right: 10%;
+    top: 0px !important; }
+  #search-auto-trader .arrow::before {
+    margin: 0px !important;
+    top: 80px !important; }
+  .overlay.overlay-contentscale .margin-top-lg {
+    padding-left: 12% !important;
+    padding-right: 12% !important; } }
+
+@media (min-width: 1794px) and (max-width: 2280px) {
+  #affordability .svg-dot-right, #intoTrade .svg-dot-right, #personalise .svg-dot-right, #congratulationsDealApproved.congratsNextSteps .svg-dot-right, #congratulationsDealApproved.congratsDetailsSent .svg-dot-right {
+    right: 10%;
+    top: 12px !important; }
+  #saved-at .landing-page-option-wrapper h2 {
+    padding-left: 150px;
+    padding-right: 150px; }
+  #search-auto-trader .arrow::before {
+    margin: 0px !important;
+    top: 120px !important; } }
+
+@media (min-width: 1794px) {
+  #saved-at .arrow::before {
+    margin: 0px !important;
+    top: 150px !important; }
+  #view-initial-response-for-a-vehicle .arrow::before {
+    top: 365px !important; }
+  #page-register .arrow::before {
+    top: 160px !important;
+    left: 49% !important; }
+  #counterOfferAT .arrow::before {
+    top: 220px; } }
+
+@media (max-width: 1794px) {
+  #congratulationsDealApproved .card-panel-header-white-gradient.third-panel {
+    height: 260px !important; }
+  #credit-advisor .badge {
+    top: 0px;
+    margin: auto !important;
+    /*position:absolute !important;*/ }
+  #credit-advisor #bottom_section .btn-orange, #view-initial-response-for-a-vehicle .btn-orange {
+    margin-bottom: 20px !important; }
+  #credit-advisor.credit-advisor-dashboard .arrow::before {
+    top: 220px !important; }
+  #credit-advisor #bottom_section, #view-initial-response-for-a-vehicle #bottom_section {
+    margin-top: 10px !important; }
+  #page-register .arrow::before {
+    top: 160px !important;
+    left: 49%; }
+  #saved-at .arrow::before {
+    margin: 0px !important;
+    top: 150px !important; }
+  #search-auto-trader .arrow::before {
+    margin: 0px !important;
+    top: 120px !important; }
+  #view-initial-response-for-a-vehicle .arrow::before {
+    top: 365px !important; }
+  #counterOfferAT .arrow::before {
+    top: 260px !important; } }
+
+@media (min-width: 1631px) and (max-width: 1794px) {
+  #affordability .svg-dot-right, #intoTrade .svg-dot-right, #personalise .svg-dot-right, #congratulationsDealApproved.congratsNextSteps .svg-dot-right, #congratulationsDealApproved.congratsDetailsSent .svg-dot-right {
+    right: 10%;
+    top: 30px !important; } }
+
+/* Large Devices, Wide Screens */
+@media (max-width: 1631px) {
+  #saved-at .landing-page-option-wrapper h2 {
+    padding-left: 100px;
+    padding-right: 100px; }
+  #page-register .arrow::before {
+    top: 160px !important;
+    left: 48.8%; }
+  #credit-advisor .badge {
+    top: 0px;
+    margin: auto !important;
+    /*position:absolute !important;*/ }
+  #credit-advisor #bottom_section .btn-orange, #view-initial-response-for-a-vehicle .btn-orange {
+    margin-bottom: 20px !important; }
+  #credit-advisor #bottom_section, #view-initial-response-for-a-vehicle #bottom_section {
+    margin-top: 10px !important; }
+  #view-initial-response-for-a-vehicle .badge {
+    top: 0px;
+    width: 200px !important;
+    margin: auto !important;
+    /*position:absolute !important;*/ }
+  #view-initial-response-for-a-vehicle .arrow::before {
+    top: 365px !important; }
+  /*///*/
+  #page_basic_details_none .dark-gray-background .arrow::before {
+    top: 70% !important; }
+  #page_basic_details_AT_none .dark-gray-background .arrow::before {
+    top: 75% !important; }
+  #saved-at .arrow::before {
+    margin: 0px !important;
+    top: 192px !important; }
+  #search-auto-trader .arrow::before {
+    margin: 0px !important;
+    top: 120px !important; }
+  .text-small {
+    font-size: 12px !important; }
+  .text-med {
+    font-size: 12px !important; }
+  .text-margin {
+    margin-left: 35px !important;
+    margin-right: 10px !important;
+    margin-top: 0px !important; }
+  #page-login-register #register-card #terms-section2 #t-and-c {
+    margin-left: 7% !important;
+    margin-right: 10px !important; }
+  #page-login-register #register-card #terms-check-box-wrap .terms-check-box {
+    margin-top: 0px !important;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left !important; }
+  #settlementAccounts #collapseCardWithTick .collapse-card__heading .collapse-card__title {
+    padding-bottom: 10px !important; }
+  #settlementAccounts #collapseCardWithTick .collapse-card__heading .card-text {
+    font-size: 16px !important;
+    font-weight: normal !important; }
+  #settlementAccounts #collapseCardWithTick .active .card-text {
+    font-size: 24px !important;
+    font-weight: 400 !important; }
+  .arrow::before {
+    top: 180px !important; }
+  #credit-advisor .credit-dark-gray-background.arrow:before {
+    top: 43px !important; } }
+
+@media (min-width: 1280px) and (max-width: 1631px) {
+  #affordability .svg-dot-right, #intoTrade .svg-dot-right, #personalise .svg-dot-right, #congratulationsDealApproved.congratsNextSteps .svg-dot-right, #congratulationsDealApproved.congratsDetailsSent .svg-dot-right {
+    right: 10%;
+    top: 30px !important; } }
+
+@media (min-width: 769px) and (max-width: 1631px) {
+  #page_basic_details_none .gradient-area-grey .arrow::before {
+    top: 89% !important; } }
+
+@media (min-width: 1280px) {
+  #saved-at .landing-page-option-wrapper h2 {
+    padding-left: 20px;
+    padding-right: 20px; }
+  #page-register .arrow::before {
+    left: 48.4%; }
+  #settlementAccounts #collapseCardWithTick .collapse-card__heading .collapse-card__title {
+    padding-bottom: 10px !important; }
+  #settlementAccounts #collapseCardWithTick .collapse-card__heading .card-text {
+    font-size: 16px !important;
+    font-weight: normal !important; }
+  #settlementAccounts #collapseCardWithTick .active .card-text {
+    font-size: 24px !important;
+    font-weight: 400 !important; }
+  #reviewDetails form {
+    padding-left: 10%;
+    padding-right: 10%; }
+  .overlay-response-modal.overlay-contentscale.open .row {
+    padding-left: 20% !important;
+    padding-right: 20% !important; }
+  .overlay-response-modal.overlay-contentscale.open .row.no-padding {
+    padding-left: 0 !important;
+    padding-right: 0 !important; } }
+
+@media only screen and (max-width: 1280px) {
+  #view-initial-response-for-a-vehicle .arrow::before {
+    top: 365px !important; }
+  #search-auto-trader .arrow::before {
+    margin: 0px !important;
+    top: 166px !important; }
+  .text-small {
+    font-size: 12px !important; }
+  .text-med {
+    font-size: 12px !important; }
+  .text-margin {
+    margin-left: 35px !important;
+    margin-right: 10px !important;
+    margin-top: 0px !important; }
+  #page-login-register #register-card #terms-section2 #t-and-c {
+    margin-left: 6.5% !important;
+    margin-right: 10px !important; }
+  #page-login-register #register-card #terms-check-box-wrap .terms-check-box {
+    margin-top: 0px !important;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left !important; }
+  #settlementAccounts #collapseCardWithTick .collapse-card__heading .collapse-card__title {
+    padding-bottom: 8px !important; }
+  #settlementAccounts #collapseCardWithTick .collapse-card__heading .card-text {
+    font-size: 16px !important;
+    font-weight: normal !important; }
+  #settlementAccounts #collapseCardWithTick .active .card-text {
+    font-size: 24px !important;
+    font-weight: 400 !important; }
+  header img {
+    /*margin-left: 200px !important;*/ }
+  #reviewDetails h1, #financeApplication h1, #userVerification h1 {
+    padding: 0 !important; }
+  #page-pre-approval .slider-input-wrap input {
+    padding-top: 4px !important; } }
+
+@media (min-width: 1099px) and (max-width: 1280px) {
+  .addressSelectPills {
+    margin-left: 0 !important; }
+  #affordability .svg-dot-right, #intoTrade .svg-dot-right, #personalise .svg-dot-right, #congratulationsDealApproved.congratsNextSteps .svg-dot-right, #congratulationsDealApproved.congratsDetailsSent .svg-dot-right {
+    right: 10%;
+    top: 35px !important; } }
+
+@media only screen and (max-width: 1200px) {
+  #saved-at .landing-page-option-wrapper h2 {
+    padding-left: 5px;
+    padding-right: 5px; }
+  #page-register .arrow::before {
+    left: 48.2%; }
+  .floating-container.mobile-float.mobile-only {
+    /*bottom: 10% !important;*/
+    bottom: 80px !important;
+    /*must be 60px, not percentage - Ash*/
+    /*old left float lugi*/
+    left: 93% !important;
+    /*top: auto !important;*/
+    position: fixed; }
+  .floating-container.mobile-float.mobile-only .action {
+    top: -8px;
+    left: -14px;
+    /*top: 120px;*/
+    /*left: -12px;*/
+    position: absolute !important; }
+  #search-auto-trader .arrow::before {
+    margin: 0px !important;
+    top: 166px !important; }
+  .text-small {
+    font-size: 12px !important; }
+  .text-med {
+    font-size: 12px !important; }
+  .text-margin {
+    margin-left: 30px !important;
+    margin-right: 10px !important;
+    margin-top: 0px !important; }
+  #page-login-register #register-card #terms-section2 #t-and-c {
+    margin-left: 30px !important;
+    margin-right: 10px !important; }
+  #page-login-register #register-card #terms-check-box-wrap .terms-check-box {
+    margin-top: 0px !important;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left !important; }
+  #settlementAccounts #collapseCardWithTick .collapse-card__heading .collapse-card__title {
+    padding-bottom: 8px !important; }
+  #settlementAccounts #collapseCardWithTick .collapse-card__heading .card-text {
+    font-size: 16px !important;
+    font-weight: normal !important; }
+  #settlementAccounts #collapseCardWithTick .active .card-text {
+    font-size: 20px !important;
+    color: #3c474e !important;
+    font-weight: 400 !important; }
+  #page-profile #saved-applications [type="checkbox"] + label::before, #page-profile #saved-applications [type="checkbox"]:not(.filled-in) + label::after {
+    right: 100%; }
+  #page-profile .terms-check-box {
+    /*width: 8% !important;*/ }
+  .collapse-card__heading > span {
+    padding-right: 10px; }
+  #page_user_flow_landing .approve-form .terms-check-box {
+    width: 10% !important; }
+  .white-logo img {
+    width: 20% !important; }
+  #page-pre-approval .slider-input-wrap input {
+    padding-top: 5px !important; } }
+
+@media only screen and (max-width: 1150px) {
+  #page-register .arrow::before {
+    top: 155px !important;
+    left: 48.2%; }
+  #page-deal-approved .deal-approved-header .deal-summary-item, #page-deal-approved .deal-approved-header .row-line-item {
+    line-height: 40px; }
+  #reviewDetails .collapse-card.active .collapse-card__title span:before {
+    right: 70% !important; }
+  #reviewDetails .collapse-card.active .collapse-card__title span:after {
+    left: 70% !important; }
+  #page-update-details .collapse-card.active .collapse-card__title span:before, #reviewDetails .collapse-card.active .collapse-card__title span:before {
+    margin-right: 45px !important; }
+  #page-update-details .collapse-card.active .collapse-card__title span:after, #reviewDetails .collapse-card.active .collapse-card__title span:after {
+    margin-left: 45px !important; } }
+
+@media only screen and (max-width: 1060px) {
+  #page-deal-approved .deal-approved-header .deal-summary-item, #page-deal-approved .deal-approved-header .row-line-item {
+    line-height: 35px;
+    font-size: 12px; } }
+
+@media only screen and (max-width: 1080px) {
+  #page-register .arrow::before {
+    left: 48.0%; }
+  .floating-container.mobile-float.mobile-only {
+    left: 92% !important; }
+  #search-auto-trader .arrow::before {
+    margin: 0px !important;
+    top: 166px !important; }
+  .text-small {
+    font-size: 12px !important; }
+  .text-med {
+    font-size: 12px !important; }
+  .text-margin {
+    margin-left: 30px !important;
+    margin-right: 10px !important;
+    margin-top: 0px !important; }
+  #page-login-register #register-card #terms-section2 #t-and-c {
+    margin-left: 30px !important;
+    margin-right: 10px !important; }
+  #page-login-register #register-card #terms-check-box-wrap .terms-check-box {
+    margin-top: 0px !important;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left !important; }
+  /* Custom */
+  #settlementAccounts #collapseCardWithTick .collapse-card__heading .collapse-card__title {
+    padding-bottom: 8px !important; }
+  #settlementAccounts #collapseCardWithTick .collapse-card__heading .card-text {
+    font-size: 16px !important;
+    font-weight: normal !important; }
+  #settlementAccounts #collapseCardWithTick .active .card-text {
+    font-size: 24px !important;
+    font-weight: 400 !important; }
+  #page-pre-approval h2 {
+    font-size: 24px; }
+  #page-pre-approval .btn-orange {
+    padding-left: 20px;
+    padding-right: 20px; }
+  #page-pre-approval .card-image h3 {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500; }
+  #page-pre-approval .card-content .amount {
+    font-size: 18px;
+    font-weight: 500; }
+  #page-pre-approval .card-content .range {
+    font-size: 12px; }
+  #page-pre-approval .card-content {
+    line-height: 16px; }
+  #page-pre-approval .card-action a, #page-pre-approval .card-action a:hover {
+    font-size: 12px; }
+  #page-pre-approval .card-action {
+    padding-bottom: 15px;
+    padding-top: 15px; }
+  #page-pre-approval .slider-input-wrap input {
+    padding-top: 5px !important; } }
+
+@media (min-width: 992px) and (max-width: 1080px) {
+  #affordability .svg-dot-right, #intoTrade .svg-dot-right, #personalise .svg-dot-right, #congratulationsDealApproved.congratsNextSteps .svg-dot-right, #congratulationsDealApproved.congratsDetailsSent .svg-dot-right {
+    right: 10%;
+    top: 55px; } }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .overlay.overlay-contentscale .margin-top-lg {
+    padding-left: 0% !important;
+    padding-right: 0% !important; }
+  #saved-at .landing-page-option-wrapper h2 {
+    padding-left: 20px;
+    padding-right: 20px; }
+  .svg-icon object {
+    width: 20% !important; }
+  #view-initial-response-for-a-vehicle .arrow::before {
+    top: 320px !important; }
+  #view-initial-response-for-a-vehicle .badge {
+    top: 0px;
+    width: 160px !important;
+    margin: auto !important;
+    /*position:absolute !important;*/ }
+  #page_basic_details_AT_none #header-collapse-drawer .AutoTrader_logo {
+    width: 50% !important; }
+  .floating-container.mobile-float.mobile-only {
+    left: 91% !important; }
+  #reviewDetails #header-collapse-drawer .AutoTrader_logo {
+    width: 60% !important; }
+  #search-auto-trader .arrow::before {
+    margin: 0px !important;
+    top: 166px !important; }
+  .text-small {
+    font-size: 12px !important; }
+  .text-med {
+    font-size: 12px !important; }
+  .text-margin {
+    margin-left: 30px !important;
+    margin-right: 10px !important;
+    margin-top: 0px !important; }
+  #page-login-register #register-card #terms-section2 #t-and-c {
+    margin-left: 30px !important;
+    margin-right: 10px !important; }
+  #page-login-register #register-card #terms-check-box-wrap .terms-check-box {
+    margin-top: 0px !important;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left !important; }
+  #settlementAccounts #collapseCardWithTick .collapse-card__heading .collapse-card__title {
+    padding-bottom: 8px !important; }
+  #settlementAccounts #collapseCardWithTick .collapse-card__heading .card-text {
+    font-size: 16px !important;
+    font-weight: normal !important; }
+  #settlementAccounts #collapseCardWithTick .active .card-text {
+    font-size: 24px !important;
+    font-weight: 400 !important; }
+  #page-pre-approval .card-content .icon-links a {
+    font-size: 16px; }
+  #page-pre-approval .btn-orange {
+    padding-left: 15px;
+    padding-right: 20px; }
+  #page-pre-approval p {
+    font-size: 16px; }
+  #page-pre-approval label.turquoise {
+    font-size: 14px; }
+  /*#page-pre-approval .input-field input {
+font-size: 24px
+}*/
+  #page-pre-approval .card-panel-wide .card-panel-header {
+    height: 121px; }
+  .overlay-contentscale.open .row {
+    /* padding-left: 10% !important;
+padding-right: 10% !important;*/ }
+  .white-logo img {
+    width: 25% !important; }
+  #page-pre-approval .slider-input-wrap input {
+    padding-top: 7px !important; }
+  #page-profile .user-name h1 {
+    font-size: 40px; }
+  #page-profile .profile-container .user-name {
+    margin-top: 130px !important; } }
+
+@media only screen and (max-width: 866px) {
+  #terms-check-box-wrap .btnState label {
+    padding-top: 10px !important; } }
+
+@media only screen and (min-width: 867px) {
+  .register-terms #terms-check-box-wrap .btnState label {
+    line-height: normal !important;
+    padding-top: 10px !important;
+    margin-right: 10px !important; } }
+
+@media only screen and (max-width: 847px) {
+  #saved-at .arrow::before {
+    margin: 0px !important;
+    top: 240px !important; }
+  .arrow::before {
+    top: 200px !important; }
+  #page-profile .profile-container .user-name {
+    margin-top: 130px !important; }
+  #page-register .arrow::before {
+    left: 47.6%; } }
+
+@media only screen and (max-width: 819px) {
+  #congratulationsDealApproved.congratsDetailsSent .card-panel-header-white-gradient.first-panel.arrow-no-shadow::before {
+    top: 302px !important; } }
+
+@media only screen and (max-width: 800px) {
+  #saved-at .arrow::before {
+    margin: 0px !important;
+    top: 240px !important; }
+  #page-register .arrow::before {
+    top: 200px !important;
+    left: 47.4%; }
+  #credit-advisor .badge {
+    top: 0px;
+    margin: auto !important;
+    /*position:absolute !important;*/ }
+  #page_basic_details_AT_none #header-collapse-drawer .AutoTrader_logo {
+    width: 70% !important; }
+  .floating-container.mobile-float.mobile-only {
+    left: 90% !important; }
+  #view-initial-response-for-a-vehicle .arrow::before {
+    margin: 0px !important;
+    top: 320px !important; }
+  #search-auto-trader .arrow::before {
+    margin: 0px !important;
+    top: 166px !important; }
+  .text-small {
+    font-size: 10px !important; }
+  .text-med {
+    font-size: 12px !important; }
+  .text-margin {
+    margin-left: 25px !important;
+    margin-right: 10px !important;
+    margin-top: 0px !important; }
+  #page-login-register #register-card #terms-section2 #t-and-c {
+    margin-left: 25px !important;
+    margin-right: 10px !important; }
+  #page-login-register #register-card #terms-check-box-wrap .terms-check-box {
+    margin-top: 0px !important;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left !important; }
+  #settlementAccounts #collapseCardWithTick .collapse-card__heading .collapse-card__title {
+    padding-bottom: 8px !important; }
+  #settlementAccounts #collapseCardWithTick .collapse-card__heading .card-text {
+    font-size: 16px !important;
+    font-weight: normal !important; }
+  #settlementAccounts #collapseCardWithTick .active .card-text {
+    font-size: 24px !important;
+    font-weight: 400 !important; }
+  /* Custom */
+  #page-pre-approval .btn-orange {
+    font-size: 12px; }
+  #page-pre-approval p.interest-note {
+    font-size: 14px;
+    margin-top: 20px; }
+  .vertical {
+    display: none !important; }
+  .horizontal {
+    display: block !important; }
+  header img {
+    /* margin-left: 150px;*/ }
+  .fixed-action-btn ul {
+    bottom: 0 !important;
+    top: 40% !important;
+    left: 3% !important;
+    margin: 0;
+    position: absolute;
+    right: 0 !important;
+    text-align: center !important;
+    width: 300px !important; }
+  .page_user_flow_landing .chips .chip {
+    display: none !important; }
+  .page_user_flow_landing .chips.login-header .chip {
+    display: block !important; }
+  .login-header .chips .chip {
+    display: block !important; }
+  .fixed-action-btn ul {
+    left: 20% !important; }
+  .modal .modal-content {
+    padding: 60px 5% !important; }
+  .approve-form .form-iputs {
+    padding-left: 50px !important;
+    padding-right: 50px !important; }
+  .overlay-contentscale.open .row {
+    overflow-y: scroll; }
+  .overlay-response-modal.overlay-contentscale.open .row div {
+    overflow: visible !important; }
+  .overlay-response-modal.overlay-contentscale.open .row {
+    overflow: visible !important; }
+  .white-logo img {
+    width: 30% !important; }
+  .main-header-text h1, .main-header-text h4 {
+    color: #fff !important; }
+  #page-deal-approved .deal-approved-header .deal-summary-item, #page-deal-approved .deal-approved-header .row-line-item {
+    line-height: 30px; }
+  #page-deal-approved .deal-approved-header h4 {
+    font-size: 18px; }
+  #page-deal-approved .profile-accordion .mobile-only {
+    display: none !important; }
+  #collapseCardWithoutTick .mobile-only {
+    display: none !important; }
+  #page-update-details .collapse-card.active .collapse-card__title span:before, #reviewDetails .collapse-card.active .collapse-card__title span:before {
+    margin-right: 50px !important; }
+  #page-update-details .collapse-card.active .collapse-card__title span:after, #reviewDetails .collapse-card.active .collapse-card__title span:after {
+    margin-left: 50px !important; } }
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  #saved-at .landing-page-option-wrapper h2 {
+    padding-left: 60px;
+    padding-right: 60px; } }
+
+/* Portrait ipad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #pageForgotPassword #login-register h2 {
+    font-size: 30px !important; }
+  #credit-advisor .arrow:before {
+    left: calc(50.5% - 25px) !important; }
+  .credit-dark-gray-background.footer {
+    position: absolute !important; }
+  #credit-advisor.credit-advisor-dashboard .arrow::before {
+    left: 47.9% !important; }
+  #reviewDetails #header-collapse-drawer .your-goal-detail-row {
+    border-bottom: 1px solid #fff;
+    margin-bottom: 10px;
+    padding-bottom: 5px; }
+  #reviewDetails #header-collapse-drawer h3 {
+    font-size: 21px !important; }
+  #reviewDetails #header-collapse-drawer .your-goal-detail-row {
+    border-bottom: 1px solid #fff;
+    margin-bottom: 10px;
+    padding-bottom: 5px; }
+  #reviewDetails #header-collapse-drawer p {
+    text-align: left !important;
+    line-height: 1.5em; }
+  #page-login-register .tabs .indicator::before {
+    right: 42% !important;
+    top: -30px !important; }
+  .fil-cat {
+    padding: 0 10px !important; }
+  .arrow::before, .arrow-no-shadow::before {
+    left: 46.2% !important; }
+  #page-profile .profile-img-name {
+    height: 230px !important; } }
+
+/* Landscape ipad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  #credit-advisor .arrow:before {
+    left: calc(50.5% - 25px) !important; }
+  #credit-advisor #bottom_section {
+    height: 128px !important; }
+  .landingPageHead {
+    margin-top: 120px !important; }
+  .your-goal-wrap .your-goal-details h3 {
+    font-size: 25px !important; }
+  #header-collapse-drawer .your-goal-detail-row {
+    padding-bottom: 5px !important;
+    margin-bottom: 5px !important; }
+  #terms-check-box-wrap .btnState label {
+    line-height: normal !important;
+    padding-right: 30px !important; }
+  #car-goal-change .gradient-fill {
+    height: 300px !important; }
+  #car-goal-change .card-panel-wrapper {
+    margin-top: 120px !important; }
+  #page-login-register .tabs .indicator::before {
+    right: 36% !important; }
+  #credit-advisor.credit-advisor-dashboard .arrow::before {
+    left: 48% !important; }
+  #affordability .svg-dot-right, #intoTrade .svg-dot-right, #personalise .svg-dot-right, #congratulationsDealApproved.congratsNextSteps .svg-dot-right, #congratulationsDealApproved.congratsDetailsSent .svg-dot-right {
+    right: 10%;
+    top: 40px !important; }
+  #reviewDetails #header-collapse-drawer .your-goal-detail-row {
+    border-bottom: 1px solid #fff;
+    margin-bottom: 10px;
+    padding-bottom: 5px; }
+  #reviewDetails #header-collapse-drawer h3 {
+    font-size: 21px !important; }
+  #reviewDetails #header-collapse-drawer .your-goal-detail-row {
+    border-bottom: 1px solid #fff;
+    margin-bottom: 10px;
+    padding-bottom: 5px; }
+  #reviewDetails #header-collapse-drawer p {
+    text-align: left !important;
+    line-height: 1.5em; }
+  .fil-cat {
+    padding: 0 10px !important; }
+  .arrow::before, .arrow-no-shadow::before {
+    left: 47% !important; }
+  #page-profile .user-name h1 {
+    font-size: 40px; }
+  #page-profile .profile-container .user-name {
+    margin-top: 130px !important; }
+  #page-profile #terms-check-box-wrap .btnState label {
+    font-size: 14px; } }
+
+@media only screen and (min-width: 769px) {
+  .car-landing-svg::before {
+    display: none !important; }
+  #counterOfferATSearch .arrow::before {
+    width: 0px !important;
+    height: 0px !important;
+    background-color: #1097A6 !important;
+    border-color: #1097A6 !important;
+    border-radius: 5px !important;
+    position: absolute !important;
+    margin: auto !important;
+    padding: 0px;
+    top: 275px !important;
+    box-shadow: none !important; }
+  #affordability h4, #intoTrade h4, #personalise h4 {
+    font-weight: 300 !important;
+    margin-top: 0 !important; }
+  #page-trade-in .btn-update-result-state {
+    padding: 10px 60px !important; } }
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  #loginWesBankHeading {
+    position: absolute;
+    -webkit-transform: translateY(4000%);
+            transform: translateY(4000%);
+    -webkit-transition-timing-function: ease-in-out;
+            transition-timing-function: ease-in-out;
+    z-index: 2000;
+    text-align: center; }
+  /*affordability */
+  #affordability .svg-img-full-width, #intoTrade .svg-img-full-width, #personalise .svg-img-full-width, #congratulationsDealApproved.congratsNextSteps .svg-img-full-width, #congratulationsDealApproved.congratsDetailsSent .svg-img-full-width {
+    position: relative !important;
+    height: 200px;
+    width: 100% !important;
+    right: 0 !important; }
+  #affordability .svg-wave, #intoTrade .svg-wave, #personalise .svg-wave, #congratulationsDealApproved.congratsNextSteps .svg-wave, #congratulationsDealApproved.congratsDetailsSent .svg-wave {
+    position: absolute !important;
+    width: 100%;
+    top: 50% !important;
+    -webkit-transform: translateY(-50%) !important;
+            transform: translateY(-50%) !important;
+    bottom: 50% !important; }
+  #affordability .svg-center-circle, #intoTrade .svg-center-circle, #personalise .svg-center-circle, #congratulationsDealApproved.congratsNextSteps .svg-center-circle, #congratulationsDealApproved.congratsDetailsSent .svg-center-circle {
+    position: absolute !important;
+    height: 200px;
+    right: 0 !important;
+    left: 0 !important;
+    margin: auto !important;
+    top: 50% !important;
+    -webkit-transform: translateY(0%) !important;
+            transform: translateY(0%) !important;
+    bottom: 50% !important;
+    width: 100% !important; }
+  #affordability .svg-dot-left, #affordability .svg-dot-right, #intoTrade .svg-dot-left, #intoTrade .svg-dot-right, #personalise .svg-dot-left, #personalise .svg-dot-right, #congratulationsDealApproved.congratsNextSteps .svg-dot-left, #congratulationsDealApproved.congratsNextSteps .svg-dot-right, #congratulationsDealApproved.congratsDetailsSent .svg-dot-left, #congratulationsDealApproved.congratsDetailsSent .svg-dot-right {
+    position: absolute !important;
+    width: 40px;
+    height: 40px; }
+  #affordability .svg-dot-left, #intoTrade .svg-dot-left, #personalise .svg-dot-left, #congratulationsDealApproved.congratsDetailsSent .svg-dot-left {
+    left: 10%;
+    top: 80px; }
+  #congratulationsDealApproved.congratsNextSteps .svg-dot-left {
+    top: 70px;
+    left: 10%; }
+  #counterOfferATSearch .arrow::before {
+    width: 0px !important;
+    height: 0px !important;
+    background-color: #1097A6 !important;
+    border-color: #1097A6 !important;
+    border-radius: 5px !important;
+    position: absolute !important;
+    margin: auto !important;
+    padding: 0px;
+    top: 275px !important;
+    box-shadow: none !important; }
+  #affordability h4, #intoTrade h4, #personalise h4 {
+    font-weight: 300 !important;
+    margin-top: 0 !important; } }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 991px) {
+  .congratulationsDealApprovedModal .btn-orange {
+    width: 70% !important; }
+  #congratulationsDealApproved.congratsNextSteps .svg-dot-left {
+    left: 10% !important;
+    top: 80px !important; }
+  #congratulationsDealApproved.congratsNextSteps .svg-dot-right {
+    top: 40px !important; } }
+
+@media only screen and (max-width: 776px) {
+  #congratulationsDealApproved.congratsDetailsSent .card-panel-header-white-gradient.first-panel.arrow-no-shadow::before {
+    top: 318px !important; } }
+
+@media only screen and (max-width: 768px) {
+  #userVerification .gradient-fill {
+    height: 335px !important; }
+  .your-goal-wrap .your-goal-details h3 {
+    font-size: 30px !important; }
+  #terms-check-box-wrap .btnState label {
+    padding-top: 20px !important; }
+  #car-goal-change .gradient-fill {
+    height: 200px !important; }
+  #car-goal-change .card-panel-wrapper {
+    margin-top: 90px !important; }
+  #dynamicDecline .landing-page-option-wrapper .header_container h2 {
+    padding-top: 40px !important; }
+  #amountsOwed .card-panel-wide {
+    max-height: 318px !important; }
+  .mobile-no-margin {
+    margin: 0 !important; }
+  #page_basic_details_none .arrow::before {
+    top: 90% !important; }
+  #pageLoginIDOTP #login-register h2, #pageLoginEmailOTP #login-register h2 {
+    font-size: 30px !important; }
+  .mobile-pull-right {
+    float: right !important; }
+  .mobile-only .chips .chip {
+    width: 150px !important;
+    height: 40px !important;
+    line-height: 40px !important; }
+  #landing .landingPagePills .chip {
+    font-size: 14px !important;
+    font-weight: 400 !important; }
+  #congratulationsDealApproved.congratsDetailsSent .card-panel-header-white-gradient.first-panel.arrow-no-shadow::before {
+    top: 288px !important; }
+  #congratulationsDealApproved.congratsDetailsSent .card-panel-header-white-gradient.second-panel.arrow-no-shadow::before {
+    top: 124px !important; }
+  #cash-offer .card-panel .card-panel-header p {
+    font-size: 16px !important; }
+  #cash-offer .card-panel .card-panel-content p {
+    font-size: 14px !important; }
+  #cash-offer #weelee-logo {
+    width: 234px !important; }
+  #login-register.margin-top-lg {
+    margin-top: 0px !important; }
+  #pageLoginIDOTP .no-margin-mobile, #enterNewPassword .no-margin-mobile, #pageLoginEmailOTP .no-margin-mobile {
+    margin-top: 40px !important; }
+  #congratulationsDealApproved.congratsNextSteps .svg-dot-left {
+    top: 135px !important; }
+  #congratulationsDealApproved.congratsNextSteps .svg-dot-right {
+    top: 105px !important; }
+  .mobile-text-md {
+    font-size: 16px !important; }
+  #returningLoad .cloud_sm_1 {
+    top: 40px !important; }
+  #returningLoad .cloud_sm_7 {
+    top: 30px !important; }
+  #page-profile #collapseCardWithoutTick .btn-close {
+    right: -55px !important; }
+  #returningLoad .returning-header-title {
+    top: 20px !important; }
+  #congratulationsDealApproved .card-panel-header-dark-grey-gradient {
+    height: 60px !important; }
+  #congratulationsDealApproved .card-panel-header-dark-grey-gradient.arrow-no-shadow::before {
+    top: 35px !important;
+    z-index: -1 !important; }
+  .profile-banner.refreshed-banner.returning {
+    padding-bottom: 50px !important; }
+  #page-login-register .cloud_sm_1 {
+    top: 15% !important; }
+  #reviewDetails .gradient-area-grey .margin-top-lg {
+    margin-top: 30px !important; }
+  #page-register .arrow::before {
+    top: 140px !important;
+    left: 48.8%; }
+  #landing .sun_animated {
+    top: 10px !important; }
+  #landing .cloud_bg_4 {
+    top: 5px;
+    width: 25% !important;
+    right: 1% !important; }
+  #landing .cloud_sm_7 {
+    top: 20px;
+    width: 20% !important; }
+  #landing .cloud_bg_1 {
+    top: -50px !important;
+    width: 25% !important; }
+  #landing .landing-header-text p {
+    font-size: 18px !important;
+    line-height: normal !important; }
+  #landing .sun_animated {
+    width: 15% !important; }
+  .car-landing-svg:before {
+    border-width: 10px !important;
+    width: 30px !important;
+    height: 30px !important; }
+  #landing .landingPagePills .chip {
+    font-size: 14px !important; }
+  #landing .landing-header-text {
+    top: 50px !important; }
+  #reviewDetails .mobile-margin-bottom-lg {
+    margin-bottom: 90px !important; }
+  .mobile-margin-bottom-lg {
+    margin-bottom: 40px !important; }
+  .mobile-no-margin-left {
+    margin-left: 0 !important; }
+  #landing .cloud_sm_1 {
+    top: 20px !important; }
+  #landing .relative-positive .landing-header-text {
+    margin-top: 80px; }
+  #page-pre-approval.initial-response p {
+    font-size: 16px !important;
+    line-height: normal !important; }
+  #counterOfferAT h3 {
+    font-size: 28px !important; }
+  #counterOfferAT .arrow::before {
+    top: 170px !important; }
+  #view-initial-response-for-a-vehicle .gradient-area.margin-bottom-lg {
+    margin-bottom: 40px !important; }
+  #page-register .form-wrap .margin-top-lg {
+    margin-top: 40px !important; }
+  .margin-bottom-lg {
+    margin-bottom: 20px !important; }
+  .margin-top-lg {
+    margin-top: 50px !important; }
+  .gradient-fill {
+    height: 180px !important; }
+  #t-and-c label {
+    font-size: 14px !important; }
+  #page-login-register .sun_animated {
+    width: 10% !important;
+    top: 10% !important; }
+  #page-login-register .cloud_sm_2 {
+    top: 5% !important; }
+  #page-register .tabs .indicator::before {
+    top: 10px !important; }
+  #page-login-register .tabs .indicator::before {
+    top: -30px;
+    right: 45%; }
+  #loginRegisterTabs .tabs li {
+    width: auto !important; }
+  .mobile-only {
+    display: block !important; }
+  #saved-at #login-register span {
+    font-size: 20px !important; }
+  #saved-at .card-panel, #search-auto-trader .card-panel {
+    background-color: inherit !important;
+    box-shadow: 0 2px 5px 0 rgba(255, 255, 255, 0), 0 2px 10px 0 transparent !important; }
+  #credit-advisor .badge {
+    top: 0px;
+    margin: auto !important;
+    /*position:absolute !important;*/ }
+  #view-initial-response-for-a-vehicle .arrow::before {
+    top: 280px !important; }
+  #terms-check-box-wrap .btnState label {
+    line-height: normal !important;
+    padding-right: 30px !important; }
+  #page_basic_details_none #t-and-c label p, .btnState label, #page_basic_details_AT_none label p {
+    font-size: 14px !important; }
+  .mobile-white-text {
+    color: #fff !important; }
+  .floating-container.mobile-float.mobile-only {
+    left: 90% !important; }
+  .mobile-hide {
+    display: none !important; }
+  .mobile-only .chips {
+    border: none !important;
+    margin: 20px 0 !important;
+    text-align: center; }
+  .mobile-only .chips .chip {
+    background: #69d2dc none repeat scroll 0 0 !important;
+    border: medium none !important;
+    color: #fff;
+    width: 50%; }
+  .mobile-text-center {
+    text-align: center !important; }
+  #reviewDetails #review-financial-details .mobile-border-bottom div:nth-child(1) {
+    text-align: left !important; }
+  #reviewDetails .your-goal-details h3 {
+    font-size: 18px !important; }
+  .small-text-mobile {
+    font-size: 14px !important; }
+  #page_basic_details_none .arrow::before {
+    top: 80% !important; }
+  #page_basic_details_AT_none .arrow::before {
+    top: 80% !important; }
+  .text-small {
+    font-size: 10px !important; }
+  .text-med {
+    font-size: 12px !important; }
+  .text-margin {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    margin-top: 0px !important; }
+  .arrow::before, .arrow-no-shadow::before {
+    left: 46.2% !important; }
+  #saved-at .arrow::before {
+    margin: 0px !important;
+    top: 120px !important; }
+  #search-auto-trader .AutoTrader_logo, #saved-at .AutoTrader_logo {
+    width: 20% !important; }
+  #search-auto-trader .arrow::before {
+    margin: 0px !important;
+    top: 78px !important; }
+  #page-login-register #register-card #terms-section2 #t-and-c {
+    margin-left: 43px !important; }
+  #page-login-register #register-card #terms-check-box-wrap .terms-check-box {
+    margin-top: 0px !important;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left !important; }
+  #settlementAccounts #collapseCardWithTick .collapse-card__heading .collapse-card__title {
+    padding-bottom: 8px !important; }
+  #settlementAccounts #collapseCardWithTick .collapse-card__heading .card-text {
+    font-size: 16px !important;
+    font-weight: normal !important; }
+  #settlementAccounts #good-job h4 {
+    font-size: 18px !important; }
+  #settlementAccounts #collapseCardWithTick .active .card-text {
+    font-size: 24px !important;
+    font-weight: 400 !important; }
+  .st-pusher-full {
+    background-position: 100% top !important; }
+  .mobile-no-offset {
+    margin-left: 0 !important; }
+  h1 {
+    font-size: 30px !important; }
+  h2 {
+    font-size: 20px; }
+  #saved-at .landing-page-option-wrapper h2 {
+    font-size: 25px !important; }
+  #page-register #login-register h2 {
+    font-size: 30px; }
+  #page-register #login-register h4 {
+    font-size: 18px; }
+  h2.mobile-header {
+    font-size: 40px !important;
+    line-height: 40px;
+    padding-top: 70px !important; }
+  h3 {
+    font-size: 14px; }
+  #page_basic_details_none .header_container h3, #page_basic_details_AT_none .header_container h3 {
+    font-size: 20px !important; }
+  h5 {
+    font-size: 20px;
+    font-weight: 400; }
+  /* VERIFICATION PAGE */
+  #page-verification .verification-accordion ul.collapsible .collapsible-body p {
+    text-align: center; }
+  #page-verification .verification-accordion .verification-form input[type="radio"].with-gap:checked + label:after, #page-verification .verification-accordion .verification-form input[type="radio"].with-gap + label:before {
+    display: none; }
+  #page-verification .verification-accordion .verification-form input.with-gap[type="radio"] + label {
+    padding-top: 5px;
+    width: 80%;
+    height: 35px;
+    border-radius: 100px;
+    background-color: #7b878e;
+    color: #ffffff;
+    margin: 5px 0 5px 0; }
+  #page-verification .verification-accordion .verification-form input.with-gap[type="radio"]:not(:checked) + label, #page-verification .verification-accordion .verification-form input.with-gap[type="radio"]:checked + label {
+    padding-left: 0; }
+  #page-verification .verification-accordion .verification-form input.with-gap[type="radio"]:checked + label {
+    background-color: #69d2dc;
+    color: #ffffff; }
+  #userVerification .profile-accordion .collapse-card__body {
+    padding: 0px 1rem 10px !important; }
+  #userVerification .profile-accordion .collapse-card__heading {
+    cursor: pointer;
+    min-height: auto !important;
+    padding: 1rem;
+    position: relative; }
+  /* TRADE IN SETTLEMENT PAGE */
+  #trade-in-settlement h3.turquoise-text {
+    margin-bottom: 0 !important;
+    color: #3c474e !important;
+    font-weight: 400 !important;
+    line-height: 0; }
+  #trade-in-settlement-correct h3.turquoise-text {
+    font-size: 26px;
+    font-weight: 400 !important; }
+  /* TRADE IN */
+  #page-trade-in #trade-in .calculator-blocks .calculator-blocks-desc {
+    color: #ffffff;
+    display: block;
+    font-size: 12px;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 10px;
+    line-height: 14px; }
+  #page-trade-in h2 {
+    font-size: 30px !important; }
+  #page-trade-in .input-btn-medium {
+    margin-left: 20px; }
+  #page-trade-in #trade-in .calculator-blocks .calculator-blocks-amount {
+    color: #fff;
+    display: block;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    width: 90%;
+    margin: 0 auto; }
+  #page-trade-in #trade-in .calculator-blocks-total .calculator-blocks-amount {
+    color: #fff;
+    display: block;
+    font-size: 30px;
+    line-height: 2em;
+    font-weight: 400;
+    text-transform: uppercase;
+    width: 90%;
+    margin: 0 auto; }
+  #page-login-register .input-btn-medium {
+    float: none !important; }
+  #page-login-register #login-tab a, #page-login-register #register-tab a {
+    float: right !important;
+    float: right !important; }
+  #page-login-register #login-tab a, #page-login-register #register-tab a {
+    color: #fff !important; }
+  #page-login-register .indicator {
+    background-color: #fff !important; }
+  #page-login-register .mobile-text-left {
+    text-align: left !important; }
+  #page-pre-approval .slider-input-wrap input {
+    padding-top: 7px !important; }
+  .floating-btn {
+    bottom: 20px !important; }
+  .arrow::before {
+    top: 165px !important; }
+  #loginWesBankHeading {
+    position: absolute;
+    -webkit-transform: translateY(2000%);
+            transform: translateY(2000%);
+    -webkit-transition-timing-function: ease-in-out;
+            transition-timing-function: ease-in-out;
+    z-index: 2000; }
+  #page-selling-current-car .card-panel {
+    padding-top: 0 !important; }
+  .st-pusher.hide-bg {
+    background-image: none !important; }
+  #sellingCarExpander {
+    background: transparent;
+    box-shadow: none; }
+  #sellingCarExpander .card, #landingPage .card {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
+  .chips-expander {
+    width: 100% !important; }
+  .chips-expander.expand {
+    width: 100% !important; }
+  #page-car-non-financed-only-licence-plate card-panel {
+    padding-top: 30px; }
+  .mobile-text-left {
+    text-align: left !important; }
+  .no-margin-top-mobile {
+    margin-top: 0 !important; }
+  .no-margin-bottom-mobile {
+    margin-bottom: 0 !important; }
+  #page-profile .profile-container .user-name {
+    margin-top: 140px !important; }
+  #page-profile .profile-container .pro-pic {
+    width: 120px !important;
+    height: 120px !important;
+    top: 110px !important; }
+  /*SellingCarFinancedOnly*/
+  #sellingCarExpander, #landingPage {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important; }
+  .overlay h2 {
+    font-size: 30px !important; }
+  .overlay h3 {
+    font-size: 20px !important; }
+  .overlay h4 {
+    font-size: 14px !important; }
+  /* amountsOwed */
+  #amountsOwed .medium_turquoise div span h4, #amountsOwed .medium_turquoise div h4 {
+    font-size: 14px !important; }
+  #amountsOwed div h6 {
+    font-size: 14px !important; }
+  #amountsOwed .medium_turquoise div span {
+    font-size: 14px !important; }
+  /* credit advisor tips */
+  .fil-cat {
+    font-size: 12px !important;
+    margin: 5px 0 !important;
+    padding: 0 15px; }
+  #page-profile #collapseCardWithoutTick.profile-accordion .collapse-card.active .vehicle-item a {
+    font-size: 12px; }
+  #page-profile #collapseCardWithoutTick.profile-accordion .btn-orange {
+    margin-right: 20px; }
+  #page-deal-approved .deal-approved-header .deal-summary-item, #page-deal-approved .deal-approved-header .row-line-item {
+    display: none; }
+  #page-deal-approved .deal-approved-header h4 {
+    font-size: 18px;
+    margin-top: 20px; }
+  #page-deal-approved .deal-approved-header .deal-approved-header-desc {
+    padding-bottom: 20px;
+    border: none; }
+  #page-deal-approved .card-panel img.responsive-img {
+    border-radius: 0; }
+  #page-deal-approved .profile-accordion .deal-summary-item {
+    line-height: normal;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+  #page-deal-approved .profile-accordion .mobile-only {
+    display: block !important; }
+  #collapseCardWithoutTick .row-line-item, #profile .row-line-item {
+    line-height: normal;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+  #collapseCardWithoutTick .mobile-only {
+    display: block !important; }
+  #congratulationsDealApprovedDealerLinked .padding-lg, #congratulationsDealApproved .padding-lg {
+    padding: 0 0.75rem !important; }
+  #congratulationsDealApprovedDealerLinked .card, #congratulationsDealApproved .card {
+    margin-top: 0 !important;
+    box-shadow: none !important; }
+  #congratulationsDealApprovedDealerLinked #whatToDoNextContent, #congratulationsDealApproved #whatToDoNextContent {
+    margin-top: 0px !important; }
+  #congratulationsDealApprovedDealerLinked .card-panel-content .margin-left-md, #congratulationsDealApproved .card-panel-content .margin-left-md {
+    margin-left: 0 !important; }
+  #congratulationsDealApprovedDealerLinked .card-panel-content .no-padding-right, #congratulationsDealApproved .card-panel-content .no-padding-right {
+    padding: 0 0.75rem !important; }
+  #congratulationsDealApprovedDealerLinked .no-shadow .bordered-top, #congratulationsDealApproved .no-shadow .bordered-top {
+    box-shadow: 0 2px 3px 2px rgba(0, 0, 0, 0.1) !important;
+    border-radius: 0 0 4px 4px !important; }
+  #congratulationsDealApprovedDealerLinked .no-shadow, #congratulationsDealApproved .no-shadow {
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+    margin: 0rem;
+    position: relative;
+    z-index: 200; }
+  #congratulationsDealApprovedDealerLinked .optimize-numbers {
+    width: 36px;
+    height: auto;
+    padding-top: 10px; }
+  #congratulationsDealApprovedDealerLinked #whatToDoNextContent1, #congratulationsDealApproved #whatToDoNextContent1 {
+    margin-left: 15px !important;
+    margin-right: 10px;
+    padding-bottom: 50px !important; }
+  #congratulationsDealApprovedDealerLinked #whatToDoNextContent2, #congratulationsDealApproved #whatToDoNextContent2 {
+    margin-left: 15px !important;
+    margin-right: 10px;
+    padding-bottom: 125px !important; }
+  #congratulationsDealApproved #whatToDoNextContent3 {
+    margin-left: 15px !important;
+    margin-right: 10px;
+    padding-bottom: 145px !important; }
+  #enterCorrectCar .input-btn-medium {
+    width: 175px !important;
+    float: right; }
+  #credit-advisor .card-light-grey .dashboard-card-heading h3, #car-goal-change .card-light-grey .dashboard-card-heading h3 {
+    font-size: 14px !important; }
+  #credit-advisor .dashboard-card-closed .text-left, #credit-advisor .dashboard-card-closed .text-right, #car-goal-change .dashboard-card-closed .text-left, #car-goal-change .dashboard-card-closed .text-right {
+    font-size: 14px !important; }
+  #credit-advisor .dashboard-card-closed .dashboard-card-heading h3, #car-goal-change .dashboard-card-closed .dashboard-card-heading h3 {
+    font-size: 25px !important; }
+  #credit-advisor .dashboard-card-heading h3, #credit-advisor .dashboard-card-icon-wrap .fa, #credit-advisor .dashboard-card-icon-wrap, #car-goal-change .dashboard-card-heading h3, #car-goal-change .dashboard-card-icon-wrap .fa, #car-goal-change .dashboard-card-icon-wrap {
+    font-size: 18px !important; }
+  #credit-advisor .dashboard-card-icon-wrap .fa, #car-goal-change .dashboard-card-icon-wrap .fa {
+    padding-top: 4px !important; }
+  #credit-advisor .dashboard-card-icon-wrap .fa.fa-arrow-down, #car-goal-change .dashboard-card-icon-wrap .fa.fa-arrow-down {
+    padding-top: 5px !important; }
+  #credit-advisor .row-line-item .text-left, #credit-advisor .row-line-item .text-right, #car-goal-change .row-line-item .text-left, #car-goal-change .row-line-item .text-right {
+    font-size: 14px !important; }
+  #credit-advisor .dashboard-card-icon-wrap, #car-goal-change .dashboard-card-icon-wrap {
+    padding-left: 0 !important;
+    padding-right: 15px !important; }
+  #credit-advisor .card-light-grey.well-done .dashboard-card:before, #credit-advisor .card-light-grey.prev-months .dashboard-card:before, #car-goal-change .card-light-grey.well-done .dashboard-card:before, #car-goal-change .card-light-grey.prev-months .dashboard-card:before {
+    top: 28px !important; }
+  #credit-advisor .dashboard-card:before, #car-goal-change .dashboard-card:before {
+    top: 17px !important; }
+  #car-goal-change .dashboard-card-open.dashboard-card:before {
+    top: 18px !important; }
+  #credit-advisor .dashboard-card .header-light, #car-goal-change .dashboard-card .header-light {
+    font-size: 14px !important; }
+  #congratulationsDealApprovedDealerLinked .card-panel-content .no-padding-right, #congratulationsDealApproved .card-panel-content .no-padding-right {
+    padding: 0 0.75rem !important; }
+  #congratulationsDealApprovedDealerLinked .no-shadow .bordered-top, #congratulationsDealApproved .no-shadow .bordered-top {
+    box-shadow: 0 2px 3px 2px rgba(0, 0, 0, 0.1) !important;
+    border-radius: 0 0 4px 4px !important; }
+  #congratulationsDealApprovedDealerLinked .no-shadow, #congratulationsDealApproved .no-shadow {
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+    margin: 0rem;
+    position: relative;
+    z-index: 200; }
+  #congratulationsDealApprovedDealerLinked .optimize-numbers {
+    width: 36px;
+    height: auto;
+    padding-top: 10px; }
+  #congratulationsDealApprovedDealerLinked #whatToDoNextContent1, #congratulationsDealApproved #whatToDoNextContent1 {
+    margin-left: 15px !important;
+    margin-right: 10px;
+    padding-bottom: 50px !important; }
+  #congratulationsDealApprovedDealerLinked #whatToDoNextContent2, #congratulationsDealApproved #whatToDoNextContent2 {
+    margin-left: 15px !important;
+    margin-right: 10px;
+    padding-bottom: 125px !important; }
+  #congratulationsDealApproved #whatToDoNextContent3 {
+    margin-left: 15px !important;
+    margin-right: 10px;
+    padding-bottom: 145px !important; }
+  #enterCorrectCar .input-btn-medium {
+    width: 175px !important;
+    float: right; }
+  #credit-advisor .card-light-grey .dashboard-card-heading h3, #car-goal-change .card-light-grey .dashboard-card-heading h3 {
+    font-size: 14px !important; }
+  #credit-advisor .dashboard-card-closed .text-left, #credit-advisor .dashboard-card-closed .text-right, #car-goal-change .dashboard-card-closed .text-left, #car-goal-change .dashboard-card-closed .text-right {
+    font-size: 14px !important; }
+  #credit-advisor .dashboard-card-closed .dashboard-card-heading h3, #car-goal-change .dashboard-card-closed .dashboard-card-heading h3 {
+    font-size: 25px !important; }
+  #credit-advisor .dashboard-card-heading h3, #credit-advisor .dashboard-card-icon-wrap .fa, #credit-advisor .dashboard-card-icon-wrap, #car-goal-change .dashboard-card-heading h3, #car-goal-change .dashboard-card-icon-wrap .fa, #car-goal-change .dashboard-card-icon-wrap {
+    font-size: 18px !important; }
+  #credit-advisor .dashboard-card-icon-wrap .fa, #car-goal-change .dashboard-card-icon-wrap .fa {
+    padding-top: 4px !important; }
+  #credit-advisor .dashboard-card-icon-wrap .fa.fa-arrow-down, #car-goal-change .dashboard-card-icon-wrap .fa.fa-arrow-down {
+    padding-top: 5px !important; }
+  #credit-advisor .row-line-item .text-left, #credit-advisor .row-line-item .text-right, #car-goal-change .row-line-item .text-left, #car-goal-change .row-line-item .text-right {
+    font-size: 14px !important; }
+  #credit-advisor .dashboard-card-icon-wrap, #car-goal-change .dashboard-card-icon-wrap {
+    padding-left: 0 !important;
+    padding-right: 15px !important; }
+  #credit-advisor .card-light-grey.well-done .dashboard-card:before, #credit-advisor .card-light-grey.prev-months .dashboard-card:before, #car-goal-change .card-light-grey.well-done .dashboard-card:before, #car-goal-change .card-light-grey.prev-months .dashboard-card:before {
+    top: 28px !important; }
+  #credit-advisor .dashboard-card:before, #car-goal-change .dashboard-card:before {
+    top: 17px !important; }
+  #car-goal-change .dashboard-card-open.dashboard-card:before {
+    top: 18px !important; }
+  #credit-advisor .dashboard-card .header-light, #car-goal-change .dashboard-card .header-light {
+    font-size: 14px !important; }
+  #credit-advisor .card-grey .dashboard-card-heading h3, #car-goal-change .card-grey .dashboard-card-heading h3 {
+    font-size: 16px !important;
+    margin-right: 50px !important; }
+  #credit-advisor h2, #car-goal-change h2 {
+    font-size: 25px !important;
+    margin-bottom: 10px !important; }
+  #credit-advisor h4, #car-goal-change h4 {
+    font-size: 14px !important; }
+  #credit-advisor .desktop-header, #car-goal-change .desktop-header {
+    display: none; }
+  #credit-advisor .card-grey .dashboard-card-body img, #car-goal-change .card-grey .dashboard-card-body img {
+    width: 100% !important; }
+  #credit-advisor .card-grey .dashboard-card-body .price-qualify-for, #car-goal-change .card-grey .dashboard-card-body .price-qualify-for {
+    font-size: 25px !important; }
+  #credit-advisor .card-grey .dashboard-card-body .price-qualify-for a, #car-goal-change .card-grey .dashboard-card-body .price-qualify-for a {
+    font-size: 14px !important; }
+  #credit-advisor .card-grey .dashboard-card-body .btn-get-finance, #car-goal-change .card-grey .dashboard-card-body .btn-get-finance {
+    text-align: center !important; }
+  #credit-advisor .card-grey .dashboard-card-body p.car-title, #car-goal-change .card-grey .dashboard-card-body p.car-title {
+    margin-top: 0; }
+  #credit-advisor .card-grey .dashboard-card-body .row-qualify-for .m6, #credit-advisor #header-collapse-drawer .your-goal-details .m6, #car-goal-change .card-grey .dashboard-card-body .row-qualify-for .m6, #car-goal-change #header-collapse-drawer .your-goal-details .m6 {
+    width: 100%; }
+  #credit-advisor .form-tool-tip, #car-goal-change .form-tool-tip {
+    width: 80% !important; }
+  #page-review-application h2, #page-update-details h2 {
+    font-size: 30px !important; }
+  .profile-banner.refreshed-banner h1 {
+    font-size: 30px !important; }
+  #page-profile h2.mobile-only {
+    font-size: 30px !important; }
+  #settlementAccounts #good-job h2 {
+    font-size: 25px !important; }
+  #settlementAccounts #good-job h3 {
+    font-size: 18px !important; }
+  /*almostThere */
+  #almostThere .landing-page-option-wrapper h2, #almostThereAT .landing-page-option-wrapper h2 {
+    font-size: 30px !important; }
+  #almostThere .arrow::before, #almostThereAT .arrow::before {
+    top: 346px !important; }
+  #almostThere .dark-gray-background h4, #almostThereAT .dark-gray-background h4 {
+    font-size: 16px !important;
+    line-height: 1.5rem; }
+  #page-login-register .login-register-header {
+    margin-top: 120px !important; }
+  #loginRegisterTabs {
+    margin-top: 5px; }
+  .landingPageHead {
+    margin-top: 70px !important; }
+  .car-landing-svg {
+    position: absolute;
+    top: 30px !important; }
+  /* returningLoad */
+  #returningLoad #profile .btn-close, #page-profile .collapseCardWithoutTick .btn-close {
+    right: -50px !important; }
+  #returningLoad #collapseCardWithoutTick.profile-accordion .collapse-card, #page-profile #collapseCardWithoutTick .collapse-card {
+    margin-bottom: 20px !important; }
+  #returningLoad #collapseCardWithoutTick.profile-accordion .collapse-card__heading, #page-profile #collapseCardWithoutTick .collapse-card__heading {
+    padding: 4px 5rem 4px 1rem !important;
+    overflow: hidden; }
+  #returningLoad #collapseCardWithoutTick .row-line-item .col {
+    padding-right: 1rem;
+    padding-left: 1rem; }
+  #counterOffer .gradient-fill {
+    height: 280px !important; }
+  #counterOffer .card .input-btn-medium {
+    float: none; }
+  #counterOffer .card h3 {
+    font-size: 20px !important; }
+  #affordability .svg-img-full-width, #intoTrade .svg-img-full-width, #personalise .svg-img-full-width, #congratulationsDealApproved.congratsNextSteps .svg-img-full-width, #congratulationsDealApproved.congratsDetailsSent .svg-img-full-width {
+    position: relative !important;
+    height: 300px !important;
+    width: 100% !important;
+    right: 0 !important; }
+  #affordability .svg-center-circle, #intoTrade .svg-center-circle, #personalise .svg-center-circle, #congratulationsDealApproved.congratsNextSteps .svg-center-circle, #congratulationsDealApproved.congratsDetailsSent .svg-center-circle {
+    position: absolute !important;
+    height: 200px !important;
+    right: 0 !important;
+    left: 0 !important;
+    margin: auto !important;
+    top: 50% !important;
+    -webkit-transform: translateY(0%) !important;
+            transform: translateY(0%) !important;
+    bottom: 50% !important;
+    width: 100% !important; }
+  #affordability .svg-wave, #intoTrade .svg-wave, #personalise .svg-wave, #congratulationsDealApproved.congratsNextSteps .svg-wave, #congratulationsDealApproved.congratsDetailsSent .svg-wave {
+    bottom: 50% !important;
+    margin: 0 !important;
+    position: absolute !important;
+    top: 50% !important;
+    -webkit-transform: translateY(-50%) !important;
+            transform: translateY(-50%) !important;
+    width: 100% !important; }
+  #affordability .svg-dot-left, #affordability .svg-dot-right, #intoTrade .svg-dot-left, #intoTrade .svg-dot-right, #personalise .svg-dot-left, #personalise .svg-dot-right, #congratulationsDealApproved.congratsNextSteps .svg-dot-left, #congratulationsDealApproved.congratsNextSteps .svg-dot-right, #congratulationsDealApproved.congratsDetailsSent .svg-dot-left, #congratulationsDealApproved.congratsDetailsSent .svg-dot-right {
+    position: absolute !important;
+    width: 29px !important;
+    height: 29px !important; }
+  #affordability .svg-dot-left, #intoTrade .svg-dot-left, #personalise .svg-dot-left, #congratulationsDealApproved.congratsNextSteps .svg-dot-left, #congratulationsDealApproved.congratsDetailsSent .svg-dot-left {
+    top: 140px !important;
+    left: 10% !important; }
+  #affordability .svg-dot-right, #intoTrade .svg-dot-right, #personalise .svg-dot-right, #congratulationsDealApproved.congratsNextSteps .svg-dot-right, #congratulationsDealApproved.congratsDetailsSent .svg-dot-right {
+    right: 10% !important;
+    top: 105px; }
+  #affordability h4, #intoTrade h4, #personalise h4 {
+    font-size: 16px !important; }
+  #affordability .svg-wave .st0, #intoTrade .svg-wave .st0, #personalise .svg-wave .st0 {
+    fill: #e2e5e7;
+    stroke: #e2e5e7;
+    stroke-width: 0.4em; }
+  #counterOfferATSearch .landing-page-option-wrapper {
+    height: 200px !important; }
+  #counterOfferATSearch .landing-page-option-wrapper .header_container h2 {
+    font-family: Roboto;
+    font-size: 25px !important;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: center;
+    color: #ffffff !important;
+    padding-top: 60px !important; }
+  #counterOfferATSearch #bottom_section {
+    margin-top: 35px; }
+  #counterOfferATSearch .arrow::before {
+    width: 0px !important;
+    height: 0px !important;
+    background-color: #1097A6 !important;
+    border-color: #1097A6 !important;
+    border-radius: 5px !important;
+    position: absolute !important;
+    margin: auto !important;
+    padding: 0px;
+    top: 175px !important;
+    box-shadow: none !important; }
+  #counterOfferATSearch .card-panel {
+    background: transparent;
+    box-shadow: none !important; }
+  #nonFinancedTradeInVin .gradient-fill {
+    height: 280px !important; }
+  #nonFinancedTradeInVin .input-btn-medium {
+    width: 230px !important; } }
+
+@media only screen and (max-width: 737px) {
+  #congratulationsDealApproved.congratsDetailsSent .card-panel-header-white-gradient.second-panel.arrow-no-shadow::before {
+    top: 142px !important; } }
+
+@media only screen and (max-width: 720px) {
+  #credit-advisor #bottom_section {
+    height: 180px !important; }
+  #saved-at .landing-page-option-wrapper h2 {
+    padding-left: 50px;
+    padding-right: 50px; }
+  #page-deal-approved .deal-approved-header .deal-summary-item, #page-deal-approved .deal-approved-header .row-line-item {
+    line-height: 26px; }
+  #page-deal-approved .deal-approved-header h4 {
+    font-size: 16px;
+    margin-top: 12px; }
+  #page-deal-approved .deal-approved-header .deal-approved-header-desc {
+    padding-bottom: 8px; }
+  #page-update-details .collapse-card.active .collapse-card__title span:before, #reviewDetails .collapse-card.active .collapse-card__title span:before {
+    margin-right: 80px !important; }
+  #page-update-details .collapse-card.active .collapse-card__title span:after, #reviewDetails .collapse-card.active .collapse-card__title span:after {
+    margin-left: 80px !important; } }
+
+@media only screen and (max-width: 640px) {
+  .overlay.overlay-contentscale .margin-top-lg {
+    padding-left: 0% !important;
+    padding-right: 0% !important; }
+  #pageLoginIDOTP .no-margin-mobile, #enterNewPassword .no-margin-mobile, #pageLoginEinEmailOTP .no-margin-mobile {
+    margin-top: 20px !important; }
+  #congratulationsDealApproved.congratsNextSteps .svg-dot-right {
+    top: 110px !important; }
+  #landing .sun_animated {
+    top: 10px !important; }
+  #landing .cloud_bg_4 {
+    top: 5px;
+    width: 25% !important;
+    right: 1% !important; }
+  #landing .cloud_sm_7 {
+    top: 20px;
+    width: 20% !important; }
+  #landing .cloud_bg_1 {
+    top: -40px !important;
+    width: 25% !important; }
+  #landing .landing-header-text p {
+    font-size: 18px !important;
+    line-height: normal !important; }
+  #landing .sun_animated {
+    width: 15% !important; }
+  #page-register .login-register-header {
+    margin-top: 40px !important; }
+  .floating-container.mobile-float.mobile-only {
+    left: 87% !important; }
+  #reviewDetails #review-financial-details .mobile-border-bottom div:nth-child(1) {
+    text-align: left !important; }
+  .small-text-mobile {
+    font-size: 14px !important; }
+  .text-small {
+    font-size: 10px !important; }
+  .text-med {
+    font-size: 12px !important; }
+  .text-margin {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    margin-top: 0px !important; }
+  .arrow::before, .arrow-no-shadow::before {
+    left: 46.6% !important; }
+  #saved-at .arrow::before {
+    margin: 0px !important;
+    top: 124px !important; }
+  #search-auto-trader .AutoTrader_logo, #saved-at .AutoTrader_logo {
+    width: 20% !important; }
+  #search-auto-trader .arrow::before {
+    margin: 0px !important;
+    top: 76px !important; }
+  #page-login-register #register-card #terms-section2 #t-and-c {
+    margin-left: 38px !important; }
+  #page-login-register #register-card #terms-check-box-wrap .terms-check-box {
+    margin-top: 0px !important;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left !important; }
+  #settlementAccounts #collapseCardWithTick .collapse-card__heading .collapse-card__title {
+    padding-bottom: 8px !important; }
+  #settlementAccounts #collapseCardWithTick .collapse-card__heading .card-text {
+    margin-top: 15px !important;
+    font-size: 14px !important;
+    font-weight: normal !important; }
+  #settlementAccounts #collapseCardWithTick .active .card-text {
+    font-size: 20px !important;
+    font-weight: 400 !important; }
+  #settlementAccounts #collapseCardWithTick .collapse-card__heading .card-text {
+    margin-top: 15px !important;
+    font-size: 14px !important;
+    font-weight: normal !important; }
+  #settlementAccounts #collapseCardWithTick .active .card-text {
+    font-size: 20px !important;
+    font-weight: 400 !important; }
+  #settlementAccounts #main_header h1 {
+    color: white; }
+  #page-profile .terms-check-box {
+    /*width: 10% !important;*/ }
+  #page-profile .profile-container .profile-details {
+    margin-top: 10px !important;
+    margin-left: 0; }
+  #page-profile .profile-details-footer .profile-details-footer-links {
+    margin-left: 0; }
+  #page_user_flow_landing .landing-form {
+    padding: 10px 20px 0 !important; }
+  #page_user_flow_landing .btn-close {
+    right: 0 !important; }
+  #page_user_flow_landing .collapse-card__heading i {
+    right: 0 !important; }
+  .approve-form .form-iputs {
+    padding-left: 0 !important;
+    padding-right: 0 !important; }
+  .mui--text-headline, h2 {
+    line-height: normal !important; }
+  #page_user_landing {
+    padding-top: 15px !important; }
+  #landing_car_form .btn-orange {
+    margin-top: 20px !important; }
+  #login-register h2, #page-login-register h2 {
+    margin-top: 20px !important; }
+  #page_user_flow_landing .approve-form {
+    margin-top: 10px !important; }
+  #terms-section2 .btn-orange {
+    margin-top: 20px !important; }
+  .input-field.margin-top-lg, #terms-section2.margin-top-lg {
+    margin-top: 40px !important; }
+  .margin-top-lg.profile-accordion {
+    margin-top: 30px !important; }
+  .header #logo {
+    display: block;
+    float: none;
+    margin: 0 auto;
+    height: auto;
+    text-align: center; }
+  .header.smaller {
+    height: 75px; }
+  .header.smaller #logo {
+    height: 40px;
+    line-height: 40px;
+    font-size: 30px; }
+  #creditAdvisorContent .margin-top-lg, #dealPremium .margin-top-lg, #dealClassic .margin-top-lg, #prestigeDeal .margin-top-lg, #dealAlmostThereSellingCar .margin-top-lg, #dealAlmostThereSettlingAccounts .margin-top-lg {
+    margin-top: 40px !important; }
+  #creditAdvisorContent .input-btn-medium, #dealPremium .input-btn-medium, #dealClassic .input-btn-medium, #prestigeDeal .input-btn-medium, #dealAlmostThereSellingCar .input-btn-medium, #dealAlmostThereSettlingAccounts .input-btn-medium {
+    float: none !important;
+    width: auto !important; }
+  #page_user_flow_landing h1 {
+    margin-bottom: 0; }
+  .overlay-response-modal.overlay-contentscale.open .row {
+    padding-left: 0 !important;
+    padding-right: 0 !important; }
+  #pushDownNotifications h4 {
+    font-size: 20px !important; }
+  #page-profile #collapseCardWithoutTick.profile-accordion .action-item h3.collapse-card__title {
+    line-height: normal !important; }
+  #page-trade-in .card-panel-wide .card-panel-header p {
+    font-size: 20px !important; }
+  #page-trade-in .card-panel-wide .card-panel-header span {
+    font-size: 14px !important; }
+  #page-trade-in .card-panel-wide .text-from-selling {
+    font-size: 14px !important; }
+  #page-trade-in .card-panel-wide .text-amount {
+    font-size: 20px !important; } }
+
+@media only screen and (max-width: 609px) {
+  #page-register #login-register h2 {
+    font-size: 25px !important; } }
+
+@media only screen and (min-width: 600px) and (max-width: 1280px) {
+  #counterOffer .input-btn-medium {
+    width: 100%; } }
+
+@media only screen and (max-width: 600px) {
+  .mobile-text-left-sm {
+    text-align: left !important; }
+  .header {
+    height: 70px !important; }
+  .your-goal-wrap .your-goal-details h3 {
+    font-size: 25px !important; }
+  .mobile-hide-sm {
+    display: none !important; }
+  .mobile-only-sm {
+    display: block !important; }
+  #congratulationsDealApproved.congratsDetailsSent .card-panel-header-white-gradient.first-panel.arrow-no-shadow::before {
+    top: 447px !important; }
+  .overlay.overlay-contentscale .margin-top-lg {
+    padding-left: 4% !important;
+    padding-right: 4% !important; }
+  #congratulationsDealApproved.congratsDetailsSent .card-panel-header-white-gradient.arrow-no-shadow::before {
+    top: 508px !important; }
+  #saved-at .landing-page-option-wrapper h2 {
+    padding-left: 100px;
+    padding-right: 100px; }
+  .landingPagePills #howMuchCanIearn .btn-close, .landingPagePills #iKnowWhatIwant .btn-close {
+    top: 5px !important; }
+  .landingPagePills .chips-expander:not(.expand) {
+    height: 40px !important; }
+  #landing .chips-expander .chip {
+    height: 40px !important;
+    line-height: 40px !important; }
+  #landing .cloud_sm_1 {
+    top: 40px !important; }
+  .svg-icon object {
+    width: 30% !important; }
+  .floating-container.mobile-float.mobile-only {
+    left: 86% !important; }
+  #reviewDetails #review-financial-details .mobile-border-bottom div:nth-child(1) {
+    text-align: left !important; }
+  .small-text-mobile {
+    font-size: 14px !important; }
+  #saved-at .arrow::before {
+    margin: 0px !important;
+    top: 124px !important; }
+  #search-auto-trader .arrow::before {
+    margin: 0px !important;
+    top: 86px !important; }
+  .dock-bottom-btn {
+    position: fixed;
+    bottom: 54px;
+    left: 30%; }
+  .dock-bottom-words {
+    position: fixed;
+    bottom: 29px;
+    left: 30%; }
+  #dynamicDecline .dock-bottom-words {
+    position: relative !important; }
+  .text-margin {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    margin-top: 0px !important; }
+  #page-login-register #register-card #terms-section2 #t-and-c {
+    margin-left: 10px !important; }
+  #page-login-register #register-card #terms-check-box-wrap .terms-check-box {
+    margin-top: 0px !important;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left !important; }
+  #settlementAccounts #collapseCardWithTick .collapse-card__heading .collapse-card__title {
+    padding-bottom: 0px !important; }
+  #settlementAccounts #collapseCardWithTick .collapse-card__heading .card-text {
+    font-size: 14px !important;
+    font-weight: normal !important; }
+  #settlementAccounts #collapseCardWithTick .active .card-text {
+    font-size: 20px !important;
+    font-weight: 400 !important; }
+  #settlementAccounts #collapseCardWithTick .active .card-text {
+    font-size: 20px !important;
+    font-weight: 400 !important; }
+  #settlementAccounts #main_header h1 {
+    color: white; }
+  #toast-container {
+    width: 100%;
+    right: 0 !important;
+    max-width: 100% !important;
+    left: inherit; }
+  /* Materilize Mobile */
+  #page-pre-approval .btn-orange {
+    /*margin-top: 30px;*/ }
+  #page-pre-approval .card-panel {
+    padding-bottom: 20px;
+    padding-top: 30px; }
+  #page-pre-approval .card-panel.card-panel-wide {
+    padding-top: 0; }
+  #page-pre-approval #slider-step-months .noUi-value.noUi-value-horizontal:nth-child(4), #page-pre-approval #slider-step-months .noUi-value.noUi-value-horizontal:nth-child(6), #page-pre-approval #slider-step-months .noUi-value.noUi-value-horizontal:nth-child(8) {
+    display: none; }
+  #page-pre-approval .card-panel-wide .card-panel-header p {
+    font-size: 16px; }
+  #page-pre-approval .card-panel-wide .card-panel-header span.card-panel-amount {
+    font-size: 30px; }
+  #page-pre-approval p.interest-rate {
+    font-size: 16px; }
+  #page-pre-approval p.interest-rate span {
+    font-size: 14px; }
+  #page-pre-approval p.interest-rate .fa {
+    font-size: 18px; }
+  #page-profile .profile-item .text-left, #page-profile .profile-item .text-right, #page-profile .profile-action-btn {
+    font-size: 14px !important; }
+  #page-profile #my-current-car .my-current-car-item h4 span {
+    font-size: 14px; }
+  #page-profile #my-current-car .my-current-car-item h3 {
+    font-size: 20px !important; }
+  #page-profile #my-current-car p, #page-profile #alerts p, #page-profile #edit-alerts p, #page-profile #edit-my-current-car p {
+    font-size: 14px !important; }
+  #page-profile .profile-container .user-name {
+    margin-top: 70px !important; }
+  #page-profile .container.profile-container {
+    background-position: center -70px !important; }
+  #page-profile .profile-container .pro-pic {
+    width: 100px !important;
+    height: 100px !important;
+    top: 50px !important; }
+  #page-profile .profile-img-name {
+    height: 160px !important;
+    background-size: 100% 105px !important; }
+  #terms-check-box-wrap .terms-check-box [type="checkbox"] + label {
+    line-height: 16px; }
+  .text-lg-desktop {
+    font-size: 18px !important; }
+  .btnState label {
+    font-size: 14px !important;
+    padding-left: 20px !important; }
+  .cloud_bg_2 {
+    display: none !important; }
+  .toggleHeight {
+    display: none !important; }
+  #howMuchCanIearn {
+    margin-top: 20px; }
+  .mobile-no-padding {
+    padding: 0 !important; }
+  .mobile-no-padding-left {
+    padding-left: 0 !important; } }
+
+@media only screen and (max-width: 571px) {
+  /* almostThere */
+  #almostThere .arrow::before, #almostThereAT .arrow::before {
+    top: 350px !important; }
+  #view-initial-response-for-a-vehicle .notch-at.arrow::before {
+    top: 300px !important; } }
+
+@media only screen and (max-width: 540px) {
+  .overlay.overlay-contentscale .margin-top-lg {
+    padding-left: 3% !important;
+    padding-right: 3% !important; }
+  #page-register .arrow::before {
+    top: 190px !important; }
+  #view-initial-response-for-a-vehicle .arrow::before {
+    top: 300px !important; }
+  #view-initial-response-for-a-vehicle .notch-at.arrow::before {
+    top: 300px !important; }
+  .floating-container.mobile-float.mobile-only {
+    left: 86% !important; }
+  #reviewDetails #review-financial-details .mobile-border-bottom div:nth-child(1) {
+    text-align: left !important; }
+  #reviewDetails #header-collapse-drawer .AutoTrader_logo {
+    width: 100% !important; }
+  .small-text-mobile {
+    font-size: 14px !important; }
+  .dock-bottom-btn {
+    position: fixed;
+    bottom: 54px;
+    left: 30%; }
+  .dock-bottom-words {
+    position: fixed;
+    bottom: 29px;
+    left: 30%; }
+  #page_basic_details_none .landing-page-option-wrapper.arrow h2, #page_basic_details_AT_none .landing-page-option-wrapper.arrow h2 {
+    font-size: 20px !important; }
+  /* verificationFailure start */
+  #verificationFailure .landing-page-option-wrapper, #dynamicDecline .landing-page-option-wrapper, #applicationReferred .landing-page-option-wrapper, #counterOfferATSearch .landing-page-option-wrapper {
+    height: 200px !important; }
+  #verificationFailure .landing-page-option-wrapper .header_container h2, #dynamicDecline .landing-page-option-wrapper .header_container h2, #applicationReferred .landing-page-option-wrapper .header_container h2 {
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: center;
+    color: #ffffff !important;
+    padding-top: 10% !important; }
+  #verificationFailure #bottom_section, #dynamicDecline #bottom_section, #applicationReferred #bottom_section, #counterOfferATSearch #bottom_section {
+    margin-top: 35px; }
+  .text-small {
+    font-size: 10px !important; }
+  .text-med {
+    font-size: 12px !important; }
+  .text-margin {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    margin-top: 0px !important; }
+  .arrow::before, .arrow-no-shadow::before {
+    left: 46.3% !important; }
+  #saved-at .arrow::before {
+    margin: 0px !important;
+    top: 124px !important; }
+  #search-auto-trader .arrow::before {
+    margin: 0px !important;
+    top: 86px !important; }
+  #page-login-register #register-card #terms-section2 #t-and-c {
+    margin-left: 10px !important; }
+  #page-login-register #register-card #terms-check-box-wrap .terms-check-box {
+    margin-top: 0px !important;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left !important; }
+  /* verificationFailure end */
+  /* Custom */
+  #settlementAccounts #collapseCardWithTick .collapse-card__heading .collapse-card__title {
+    padding-bottom: 0px !important; }
+  #settlementAccounts #collapseCardWithTick .collapse-card__heading .card-text {
+    font-size: 14px !important;
+    font-weight: normal !important; }
+  #settlementAccounts #collapseCardWithTick .active .card-text {
+    font-size: 20px !important;
+    font-weight: 400 !important; }
+  #settlementAccounts #main_header h1 {
+    color: white; }
+  #page-pre-approval .card-panel-wide .card-panel-header {
+    height: 97px;
+    line-height: 30px; }
+  #page-profile .profile-container .pro-pic {
+    width: 90px !important;
+    height: 90px !important;
+    top: 60px !important; }
+  .mobile-no-offset-sm {
+    margin-left: 0 !important; }
+  .collapse-card.active h3 {
+    color: #15a3b2 !important;
+    font-size: 25px !important; }
+  .collapse-card h3 {
+    font-size: 25px !important; }
+  #congratulationsDealApproved h2 {
+    font-size: 20px !important; }
+  #page_user_flow_landing h2 {
+    font-size: 18px !important; }
+  #page_user_flow_landing .collapse-card__heading > span {
+    font-size: 12px; }
+  #page-pre-approval .text-align-right {
+    text-align: left !important;
+    margin-bottom: 10px; }
+  .switch label .lever {
+    margin-left: 0; }
+  #page-pre-approval p:not(.plus), #page-pre-approval p:not(.tip-wrapper) {
+    font-size: 16px !important; }
+  #page-pre-approval form p {
+    font-size: 12px !important; }
+  #page-pre-approval p.pre-approved-amount {
+    font-size: 30px !important; }
+  #page-pre-approval .text-align-right, #page-pre-approval .car-in-mind-wrap {
+    text-align: center !important; }
+  #page-pre-approval .switch label {
+    text-align: inherit !important; }
+  #page-pre-approval .text-md-desktop, #page-pre-approval .chips {
+    width: 100%;
+    text-align: center !important; }
+  #page-pre-approval .text-md-desktop {
+    margin-bottom: 10px; }
+  #page-pre-approval #dealerSaleForm h4 {
+    font-size: 12px !important; }
+  #page-pre-approval .switch label .lever .inActiveOption {
+    padding-left: 24px; }
+  #page-pre-approval .switch label .lever .activeOption {
+    margin-left: -24px;
+    padding-left: 0; }
+  #page-pre-approval .slider-desc {
+    font-size: 14px !important; }
+  #page-pre-approval .slider-amount {
+    font-size: 16px !important;
+    line-height: 20px !important; }
+  #page-pre-approval .slider-amount span {
+    font-weight: 400 !important; }
+  #page-pre-approval .noUi-value.noUi-value-horizontal {
+    font-size: 10px !important; }
+  #page-pre-approval #slider-amount-offer-details .noUi-value.noUi-value-horizontal:last-child {
+    margin-left: -56px !important; }
+  #page-pre-approval .noUi-target a {
+    font-size: 12px !important; }
+  #page-pre-approval .card-panel-wide .card-panel-header span.card-panel-text {
+    font-size: 24px !important; }
+  #page-pre-approval .card-panel-wide .card-panel-header {
+    height: 90px !important; }
+  #page-pre-approval .card-panel-wide .card-panel-header p {
+    line-height: 18px; }
+  #page-pre-approval .interest-rate-header, #page-pre-approval .interest-rate {
+    text-align: left; }
+  #page-pre-approval p.interest-rate span {
+    font-size: 18px !important; }
+  #page-pre-approval [type="radio"]:not(:checked) + label, #page-pre-approval [type="radio"]:checked + label {
+    margin-right: 5px !important; }
+  #page-pre-approval p.normal-text {
+    font-size: 12px !important;
+    text-align: left; }
+  #page-pre-approval p.normal-text .btn-orange {
+    float: left; }
+  #page-pre-approval p.normal-text a {
+    float: right; }
+  #page-pre-approval .tip-wrapper {
+    font-size: 12px !important;
+    padding: 10px !important;
+    text-align: left !important; }
+  #page-pre-approval .tip-wrapper.closed {
+    padding: 0 !important; }
+  #page-pre-approval .slider-step-header .slider-desc, #page-pre-approval .slider-step-header .slider-desc.show-input-text {
+    line-height: 21px !important; }
+  #page-pre-approval .slider-input-wrap .input-field label {
+    margin-top: 4px !important; }
+  #page-pre-approval .slider-input-wrap input {
+    padding-top: 0 !important;
+    margin-top: 0px !important; }
+  .mdl-stepper-horizontal-alternative .mdl-stepper-step:first-child .mdl-stepper-bar-left, .mdl-stepper-horizontal-alternative .mdl-stepper-step:last-child .mdl-stepper-bar-right {
+    width: 20% !important; }
+  .mdl-stepper-horizontal-alternative .mdl-stepper-step .mdl-stepper-title {
+    font-size: 10px !important; }
+  .mdl-stepper-horizontal-alternative .mdl-stepper-step {
+    padding: 20px 10px !important; }
+  #page-profile h2.mobile-only {
+    font-size: 30px !important; }
+  #page-profile #collapseCardWithoutTick.profile-accordion .action-item h3.collapse-card__title {
+    font-size: 18px !important; }
+  #page-update-details .collapse-card.active .collapse-card__title span:before, #reviewDetails .collapse-card.active .collapse-card__title span:before {
+    margin-right: 40px !important; }
+  #page-update-details .collapse-card.active .collapse-card__title span:after, #reviewDetails .collapse-card.active .collapse-card__title span:after {
+    margin-left: 40px !important; }
+  .collapse-card__heading .btn-close.quote-item-close {
+    top: -40px !important; }
+  .profile-banner.refreshed-banner:not(.returning) {
+    padding: 40px !important; }
+  #page-register .profile-banner.refreshed-banner {
+    padding: 60px 20px !important; }
+  .overlay h2 {
+    text-align: left !important; } }
+
+@media only screen and (min-width: 480px) {
+  #almostThere .arrow::before, #almostThereAT .arrow::before {
+    top: 45px !important; } }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  #credit-advisor .arrow:before {
+    left: calc(50.5% - 25px) !important; }
+  .overlay.overlay-contentscale .margin-top-lg {
+    padding-left: 2% !important;
+    padding-right: 2% !important; }
+  #page-pre-approval .slider-wrap-main {
+    padding: 0 15px !important; }
+  #pageLoginIDOTP .no-margin-mobile, #enterNewPassword .no-margin-mobile, #pageLoginEmailOTP .no-margin-mobile {
+    margin-top: 5px !important; }
+  #congratulationsDealApproved.congratsNextSteps .svg-dot-left {
+    top: 55px !important; }
+  #congratulationsDealApproved.congratsNextSteps .svg-dot-right {
+    top: 35px !important; }
+  #congratulationsDealApproved.congratsNextSteps .svg-wave {
+    right: 0 !important; }
+  #congratulationsDealApproved.congratsNextSteps .svg-center-circle {
+    width: 40% !important; }
+  #congratulationsDealApproved.congratsDetailsSent .card-panel-header-white-gradient.arrow-no-shadow::before {
+    top: 458px !important; }
+  #saved-at .landing-page-option-wrapper h2 {
+    padding-left: 50px;
+    padding-right: 50px; }
+  #returningLoad .returning-header-title {
+    top: 10px !important; }
+  #congratulationsDealApproved .center-block object {
+    width: 40% !important; }
+  #landing .sun_animated {
+    top: 10px !important; }
+  #landing .cloud_bg_4 {
+    top: 5px;
+    width: 25% !important;
+    right: 1% !important; }
+  #landing .cloud_sm_7 {
+    top: 20px;
+    width: 20% !important; }
+  #landing .cloud_bg_1 {
+    top: -30px !important;
+    width: 25% !important; }
+  #landing .landing-header-text p {
+    font-size: 18px !important;
+    line-height: normal !important; }
+  #landing .sun_animated {
+    width: 15% !important; }
+  .profile-banner.refreshed-banner.returning .cloud_sm_7 {
+    top: 20px !important; }
+  .profile-banner.refreshed-banner.returning .cloud_bg_1 {
+    top: -30px !important; }
+  .profile-banner.refreshed-banner.returning .cloud_sm_1 {
+    top: 35px !important; }
+  .profile-banner.refreshed-banner.returning .sun_animated {
+    top: 10px !important; }
+  #page-pre-approval .btn-orange {
+    width: 80% !important; }
+  #landing .cloud_sm_1 {
+    top: 10px !important; }
+  .svg-copy h2 {
+    left: 20% !important; }
+  .svg-icon object {
+    width: 40% !important; }
+  .svg-img-full-width object {
+    position: relative !important;
+    right: 35% !important;
+    width: 150% !important; }
+  #view-initial-response-for-a-vehicle .arrow::before {
+    top: 300px !important; }
+  #loginRegisterTabs {
+    margin-bottom: 0 !important; }
+  #reviewDetails .chip.chip-size-md {
+    width: 110px; }
+  #counterOfferAT .header_container img {
+    width: 40% !important; }
+  #counterOfferAT .header_container h4 {
+    font-size: 14px !important; }
+  #counterOfferAT .header_container h2 {
+    font-size: 20px !important; }
+  #page-register .tabs .indicator::before {
+    top: -15px !important; }
+  #page-login-register .sun_animated {
+    width: 15% !important; }
+  #page-login-register .cloud_sm_1 {
+    top: 50px !important;
+    widthh: 15% !important; }
+  #page-login-register .cloud_sm_2 {
+    width: 15% !important; }
+  #page-login-register .cloud_bg_1 {
+    width: 20% !important;
+    top: -10px !important; }
+  #page-register #login-register h4 {
+    font-size: 16px !important; }
+  #login-register .input-btn-medium {
+    width: 70% !important; }
+  .btnState [type="radio"]:checked + label::after, .btnState .with-gap[type="radio"]:checked + label::before, .btnState .with-gap[type="radio"]:checked + label::after {
+    right: 0 !important; }
+  #howMuchCanIearn .selected-chip span, #iKnowWhatIwant .selected-chip span {
+    text-align: left !important; }
+  #landing [type="radio"]:not(:checked) + label, #landing [type="radio"]:checked + label {
+    line-height: normal !important;
+    padding-top: 20px !important; }
+  #page-pre-approval.initial-response [type="radio"]:not(:checked) + label, #page-pre-approval.initial-response [type="radio"]:checked + label {
+    line-height: normal !important;
+    padding-top: 20px !important; }
+  #page-register #login-register .login-register-header {
+    margin-bottom: 40px !important; }
+  #page-register .tabs .indicator::before {
+    right: 46.5% !important; }
+  #page_basic_details_AT_none #header-collapse-drawer .AutoTrader_logo {
+    width: 90% !important; }
+  #reviewDetails .collapse-card.active .collapse-card__title span:before {
+    right: 75% !important; }
+  #reviewDetails .collapse-card.active .collapse-card__title span:after {
+    left: 75% !important; }
+  .floating-container.mobile-float.mobile-only {
+    left: 84% !important; }
+  #reviewDetails #review-financial-details .mobile-border-bottom div:nth-child(1) {
+    text-align: left !important; }
+  .small-text-mobile {
+    font-size: 14px !important; }
+  #reviewDetails .container h4 {
+    font-size: 18px !important; }
+  #reviewDetails .container input {
+    font-size: 14px !important; }
+  #search-auto-trader .arrow::before {
+    margin: 0px !important;
+    top: 80px !important; }
+  #amount-goal-change .gradient-fill, #car-goal-change .gradient-fill {
+    background-image: none !important; }
+  .dock-bottom-btn {
+    position: fixed;
+    bottom: 54px;
+    left: 30%; }
+  .dock-bottom-words {
+    position: fixed;
+    bottom: 29px;
+    left: 30%; }
+  /* verificationFailure start */
+  #verificationFailure .landing-page-option-wrapper, #dynamicDecline .landing-page-option-wrapper, #applicationReferred .landing-page-option-wrapper, #counterOfferATSearch .landing-page-option-wrapper {
+    height: 200px !important; }
+  #verificationFailure .landing-page-option-wrapper .header_container h2, #applicationReferred .landing-page-option-wrapper .header_container h2 {
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: center;
+    color: #ffffff !important;
+    padding-top: 12% !important; }
+  #dynamicDecline .landing-page-option-wrapper .header_container h2 {
+    padding-top: 40px !important; }
+  #counterOfferATSearch .landing-page-option-wrapper .header_container h2 {
+    padding-top: 60px !important; }
+  #verificationFailure #bottom_section, #dynamicDecline #bottom_section, #applicationReferred #bottom_section, #counterOfferATSearch #bottom_section {
+    margin-top: 35px; }
+  #verificationFailure #bottom_section p, #dynamicDecline #bottom_section p, #applicationReferred #bottom_section p, #counterOfferATSearch #bottom_section p {
+    width: 270px !important; }
+  /* verificationFailure end */
+  .text-small {
+    font-size: 10px !important; }
+  .text-med {
+    font-size: 12px !important; }
+  .text-margin {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    margin-top: 0px !important; }
+  .arrow::before, .arrow-no-shadow::before {
+    left: 45.6% !important; }
+  #page-login-register #register-card #terms-section2 #t-and-c {
+    margin-left: 10px !important; }
+  #page-login-register #register-card #terms-check-box-wrap .terms-check-box {
+    margin-top: 0px !important;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left !important; }
+  #settlementAccounts #collapseCardWithTick .collapse-card__heading .collapse-card__title {
+    padding-bottom: 0px !important; }
+  #settlementAccounts #collapseCardWithTick .collapse-card__heading .card-text {
+    font-size: 14px !important;
+    font-weight: normal !important; }
+  #settlementAccounts #collapseCardWithTick .active .card-text {
+    font-size: 18px !important;
+    font-weight: 400 !important; }
+  /* GLOBAL*/
+  #settlementAccounts #main_header h1 {
+    color: white; }
+  #settlementAccounts #collapseCardWithTick #good-job .btn-orange {
+    width: 230px !important; }
+  .st-pusher {
+    background-position: left top !important;
+    background-color: #f5f5f5 !important;
+    -webkit-transition: 0.35s ease-in-out !important;
+    transition: 0.35s ease-in-out !important; }
+  .body-full .st-pusher {
+    background-color: transparent !important; }
+  .st-pusher-shift {
+    background-position: right top !important;
+    -webkit-transition: 0.35s ease-in-out !important;
+    transition: 0.35s ease-in-out !important; }
+  .input-btn-medium {
+    width: auto !important;
+    float: right; }
+  .input-btn-large {
+    width: 100% !important; }
+  .profile-banner {
+    height: 20px !important; }
+  /* car-goal-change start */
+  #car-goal-change .input-btn-medium {
+    width: 175px !important;
+    float: right; }
+  /* car-goal-change end */
+  /* PROFILE */
+  #page-profile .profile-container .pro-pic {
+    width: 100px !important;
+    height: 100px !important;
+    top: 80px !important; }
+  #page-profile .user-name h1 {
+    font-size: 18px !important; }
+  #page-profile .profile-details .text-left, #page-profile .profile-details .text-right {
+    /* width: auto !important;*/ }
+  #page-profile .profile-img-name {
+    height: 200px !important; }
+  header img {
+    margin-right: 0 !important;
+    margin-left: 0 !important; }
+  /*#page-profile .container.profile-container {
+background-position: center -40px !important;
+}*/
+  #page-profile .profile-container .profile-details {
+    margin-top: 0 !important; }
+  #page-profile .profile-accordion ul.collapsible .collapsible-header span {
+    font-size: 12px !important;
+    line-height: normal !important; }
+  #page-profile .profile-accordion ul.collapsible .collapsible-header i {
+    top: 10% !important; }
+  /* VERIFICATION */
+  #verification .container .card-panel {
+    box-shadow: none;
+    background-color: #f5f5f5 !important; }
+  #page-pre-approval label.turquoise {
+    line-height: 16px;
+    margin-top: 0;
+    font-size: 14px; }
+  #page-pre-approval pp.interest-rate {
+    font-size: 14px; }
+  #page-pre-approval p.interest-rate span {
+    font-size: 13px; }
+  #page-pre-approval p.interest-rate .fa {
+    font-size: 16px; }
+  .page_user_flow_landing {
+    display: none !important; }
+  #toast-container {
+    top: 82px !important; }
+  #page_user_flow_landing .approve-form .terms-check-box {
+    width: 15% !important; }
+  #landing_car_form select, #landing_car_form .input-field label {
+    font-size: 12px !important; }
+  .st-container {
+    overflow-x: hidden !important;
+    overflow-y: scroll !important; }
+  .overlay-contentscale.open .row {
+    padding-left: 0 !important;
+    padding-right: 0 !important; }
+  #page-profile #terms-section .terms-check-box {
+    text-align: left !important; }
+  input[value="Are you self-employed or do you work for someone?"] {
+    width: 100% !important;
+    box-sizing: border-box;
+    word-wrap: break-word; }
+  /*Basic Details Page*/
+  #page_basic_details #terms-section2 .text-sm {
+    float: right !important;
+    line-height: normal !important; }
+  /*Initial Response Affordability*/
+  #pageInitialResponseAffordability .input-btn-medium {
+    float: none !important; }
+  .toggle-text {
+    text-align: left;
+    font-size: 12px !important; }
+  .btn-orange {
+    padding: 10px 20px !important; }
+  #page-selling-current-car .btn-orange {
+    padding: 0 20px !important; }
+  #reviewDetails .profile-accordion .collapse-card__body, #financeApplication .profile-accordion .collapse-card__body, #userVerification .profile-accordion .collapse-card__body {
+    /* padding: 20px 0 50px !important;*/ }
+  #collapseCardWithoutTick .btn-orange, #collapseCardWithTick .btn-orange, #userVerification .btn-orange {
+    padding: 10px 30px !important;
+    float: right !important;
+    font-size: 14px !important; }
+  #returningLoad #collapseCardWithoutTick .btn-orange {
+    float: left !important;
+    margin-left: 15px; }
+  #reviewDetails #collapseCardWithoutTick .btn-orange, #reviewDetails #collapseCardWithTick .btn-orange, #reviewDetails #userVerification .btn-orange {
+    float: none !important; }
+  #reviewDetails.st-pusher {
+    background-image: none !important; }
+  .mobile-border-bottom {
+    width: 91% !important;
+    border-bottom: solid 1px #d8d8d8;
+    padding: 10px 0 !important;
+    margin: 0 10px !important; }
+  #reviewDetails .chip, #financeApplication .chip, #userVerification .chip {
+    font-size: 12px !important; }
+  .text-md-desktop {
+    font-size: 12px !important; }
+  #reviewDetails .collapse-card.active h3, #financeApplication .collapse-card.active h3, #userVerification .collapse-card.active h3 {
+    text-align: left !important; }
+  #reviewDetails h3 {
+    font-size: 25px !important; }
+  .white-logo {
+    margin-top: 25px !important; }
+  .white-logo img {
+    width: 40% !important; }
+  .mobile-margin-right-md {
+    margin-right: 30px !important; }
+  .mobile-no-margin-top {
+    margin-top: 0 !important; }
+  .mobile-no-margin-bottom {
+    margin-bottom: 0 !important; }
+  .mobile-text-right {
+    text-align: right !important; }
+  #dealAlmostThereSellingCarContent h2 {
+    margin-bottom: 0 !important; }
+  #dealAlmostThereSellingCarContent h6 {
+    margin-top: 0 !important;
+    font-size: 14px !important; }
+  #dealAlmostThereSellingCarContent .card-panel {
+    margin-top: 0 !important;
+    position: relative;
+    top: -10px; }
+  .margin-bottom-sm-mobile {
+    margin-bottom: 10px !important; }
+  .margin-top-sm-mobile {
+    margin-top: 10px !important; }
+  .margin-top-md-mobile {
+    margin-top: 20px !important; }
+  .no-margin-mobile {
+    margin: 0 !important; }
+  #page_user_landing, #page_basic_details_container, #page_basic_details_none_container {
+    padding-top: 0 !important; }
+  #page_basic_details_none_container .approve-form .bg-dark-gray {
+    padding-top: 5px !important; }
+  #page_basic_details_none_container label i {
+    position: relative !important;
+    right: 20px !important; }
+  #page_basic_details_container [type="checkbox"] + label, #page_basic_details_none_container [type="checkbox"] + label {
+    line-height: normal !important; }
+  #landing_car_form h2.turquoise-text {
+    font-size: 20px !important;
+    margin-top: 10px !important; }
+  .mobile-right {
+    float: right !important; }
+  .mobile-left {
+    float: left !important; }
+  #loginWesBankHeading {
+    position: absolute;
+    -webkit-transform: translateY(2000%);
+            transform: translateY(2000%);
+    -webkit-transition-timing-function: ease-in-out;
+            transition-timing-function: ease-in-out;
+    z-index: 1000 !important; }
+  #dealStructureChangesSettlement .amount h4, #page-pre-approval .amount h4 {
+    font-size: 12px; }
+  #dealStructureChangesSettlement [type="checkbox"] + label, #page-pre-approval [type="checkbox"] + label {
+    padding-left: 54px; }
+  #dealStructureChangesSettlement [type="checkbox"] + label::before, #dealStructureChangesSettlement [type="checkbox"]:not(.filled-in) + label::after, #page-pre-approval [type="checkbox"] + label::before, #page-pre-approval [type="checkbox"]:not(.filled-in) + label::after {
+    height: 30px;
+    width: 30px; }
+  #dealStructureChangesSettlement [type="checkbox"]:checked + label::before {
+    width: 17px !important;
+    height: 32px !important; }
+  #page-pre-approval [type="checkbox"]:checked + label::before {
+    width: 10px !important;
+    height: 20px !important; }
+  #page-pre-approval [type="checkbox"] + label::before, #page-pre-approval [type="checkbox"]:not(.filled-in) + label::after {
+    height: 20px !important;
+    width: 20px !important; }
+  #dealStructureChangesSettlement .card-panel-wide .card-panel-header p, #page-pre-approval .card-panel-wide .card-panel-header p {
+    font-weight: 400 !important;
+    font-size: 20px !important; }
+  #dealStructureChangesSettlement .card-panel-wide .card-panel-header span.card-panel-text, #page-pre-approval .card-panel-wide .card-panel-header span.card-panel-text {
+    font-size: 20px !important;
+    font-weight: 400 !important; }
+  #dealAlmostThereCarReview h4 {
+    font-size: 14px !important;
+    font-weight: 400 !important; }
+  #page-profile #my-current-car .my-current-car-item h3 {
+    font-size: 16px !important; }
+  #profile #saved-applications h4 {
+    font-size: 18px !important; }
+  #page-profile .profile-container .user-name {
+    margin-top: 80px !important; }
+  #page-profile .profile-container .pro-pic {
+    height: 80px !important;
+    top: 65px !important;
+    width: 80px !important; }
+  #page-profile .profile-img-name {
+    height: 150px !important; }
+  .modal-info {
+    margin-top: 40% !important; }
+  /*#licencePlateExpander {
+top: 60px!important;
+}
+#vinNumberExpander {
+top: 120px!important;
+}*/
+  #pillExpansionModal .btn-close, .overlay .chips-expander .btn-close {
+    right: 20px !important; }
+  #collapseCardWithTick .card-text, #collapseCardWithoutTick .card-text {
+    font-size: 12px; }
+  #amountsOwed #left_scroll, #amountsOwed #right_scroll {
+    width: 4% !important; }
+  #amountsOwed #right_scroll {
+    right: 4% !important; }
+  .mobile-graph-height {
+    max-height: 200px !important; }
+  #page-profile #collapseCardWithoutTick.profile-accordion .action-item .btn-close {
+    top: -45px !important; }
+  #page-profile #collapseCardWithoutTick.profile-accordion .quote-item.active h3.collapse-card__title {
+    margin: 0 !important;
+    line-height: normal !important; }
+  #page-update-details .collapse-card.active .collapse-card__heading img {
+    width: 60px;
+    height: auto; }
+  .btnState label {
+    /* padding-left: 0 !important; */
+    padding-right: 35px !important; }
+  .landingPagePills .btnState label {
+    padding-left: 20px !important; }
+  #page-returning-update h2 {
+    font-size: 18px !important;
+    font-weight: normal; }
+  #page-returning-update .card-panel h4 {
+    font-size: 18px !important; }
+  #page-update-details .collapse-card.active .collapse-card__title span:before, #reviewDetails .collapse-card.active .collapse-card__title span:before {
+    margin-right: 50px !important; }
+  #page-update-details .collapse-card.active .collapse-card__title span:after, #reviewDetails .collapse-card.active .collapse-card__title span:after {
+    margin-left: 50px !important; }
+  .collapse-card__heading .btn-close.quote-item-close {
+    top: -25px !important; }
+  #affordability .svg-img-full-width, #intoTrade .svg-img-full-width, #personalise .svg-img-full-width, #congratulationsDealApproved.congratsNextSteps .svg-img-full-width, #congratulationsDealApproved.congratsDetailsSent .svg-img-full-width {
+    position: relative !important;
+    height: 135px !important;
+    width: 100% !important;
+    right: 0 !important;
+    margin-top: 30px; }
+  #affordability .svg-center-circle, #intoTrade .svg-center-circle, #personalise .svg-center-circle, #congratsNextStep .svg-center-circle {
+    position: absolute !important;
+    height: 135px !important;
+    right: 0 !important;
+    left: 0 !important;
+    margin: auto !important;
+    top: 50% !important;
+    -webkit-transform: translateY(0%) !important;
+            transform: translateY(0%) !important;
+    bottom: 50% !important;
+    width: 100% !important; }
+  #affordability .svg-wave, #intoTrade .svg-wave, #personalise .svg-wave, #congratsNextStep .svg-wave {
+    bottom: 50% !important;
+    margin: 0 !important;
+    position: absolute !important;
+    top: 50% !important;
+    -webkit-transform: translateY(-50%) !important;
+            transform: translateY(-50%) !important;
+    width: 100% !important;
+    right: 0 !important; }
+  #affordability .svg-dot-left, #affordability .svg-dot-right, #intoTrade .svg-dot-left, #intoTrade .svg-dot-right, #personalise .svg-dot-left, #personalise .svg-dot-right, #congratsNextStep .svg-dot-left, #congratsNextStep .svg-dot-right {
+    position: absolute !important;
+    width: 29px !important;
+    height: 29px !important; }
+  #affordability .svg-dot-left, #intoTrade .svg-dot-left, #personalise .svg-dot-left, #congratsNextStep .svg-dot-left {
+    left: 10% !important;
+    top: 60px !important; }
+  #affordability .svg-dot-right, #intoTrade .svg-dot-right, #personalise .svg-dot-right, #congratsNextStep .svg-dot-right {
+    right: 10% !important;
+    top: 35px; }
+  #almostThere .landing-page-option-wrapper img, #almostThereAT .landing-page-option-wrapper img {
+    width: 165px !important; }
+  #almostThere .dark-gray-background h4, #almostThereAT .dark-gray-background h4 {
+    padding-left: 30px !important;
+    padding-right: 30px !important; }
+  #almostThere .arrow::before, #almostThereAT .arrow::before {
+    top: 65px !important; }
+  #almostThere .input-btn-medium-center, #almostThereAT .input-btn-medium-center {
+    width: 230px !important;
+    text-align: center !important;
+    float: none !important; }
+  #nonFinancedTradeInVin h1 {
+    margin-top: 40px; }
+  #pageForgotPassword .input-btn-large {
+    float: left !important; } }
+
+@media only screen and (max-width: 405px) {
+  #search-auto-trader .arrow::before {
+    margin: 0px !important;
+    top: 75px !important; }
+  .overlay.overlay-contentscale .margin-top-lg {
+    padding-left: 0% !important;
+    padding-right: 0% !important; }
+  #page-register .arrow::before {
+    top: 215px !important;
+    left: 48.8%; }
+  .floating-container.mobile-float.mobile-only {
+    left: 80% !important; }
+  .mobile-hide {
+    display: none !important; }
+  #saved-at .arrow::before {
+    margin: 0px !important;
+    top: 124px !important; }
+  #search-auto-trader .btn-red, #saved-at .btn-red {
+    font-size: 14px !important; }
+  #amount-goal-change .gradient-fill, #car-goal-change .gradient-fill {
+    background-image: none !important; }
+  .dock-bottom-btn {
+    position: fixed;
+    bottom: 54px;
+    left: 30%; }
+  .dock-bottom-words {
+    position: fixed;
+    bottom: 29px;
+    left: 30%; }
+  .arrow::before {
+    top: 180px !important;
+    left: 45%; }
+  .arrow-no-shadow::before {
+    left: 45% !important; }
+  .fil-cat {
+    font-size: 12px;
+    margin: 5px 0;
+    padding: 0 10px !important; }
+  .mobile-no-padding {
+    padding: 0 !important; }
+  .mobile-no-padding-left {
+    padding-left: 0 !important; }
+  #reviewDetails #collapseCardWithTick .collapse-card__heading {
+    padding-left: 0 !important; }
+  #collapseCardWithTick .card-text, #collapseCardWithoutTick .card-text {
+    padding-right: 0 !important; }
+  .mobile-padding-bottom-sm {
+    padding-bottom: 10px !important; }
+  .mobile-padding-left-lg {
+    padding-left: 30px; }
+  .mobile-padding-left-md {
+    padding-left: 20px; }
+  .mobile-padding-left-sm {
+    padding-left: 10px; }
+  .mobile-padding-left-xs {
+    padding-left: 5px; }
+  .mobile-no-padding-right {
+    padding-right: 0 !important; }
+  .mobile-no-padding-left {
+    padding-left: 0 !important; }
+  .mobile-no-padding-top {
+    padding-top: 0 !important; }
+  .mobile-no-padding-bottom {
+    padding-bottom: 0 !important; } }
+
+@media only screen and (max-width: 400px) {
+  #congratulationsDealApproved.congratsDetailsSent .card-panel-header-white-gradient.first-panel.arrow-no-shadow::before {
+    top: 464px !important; } }
+
+@media only screen and (max-width: 375px) {
+  .logo img {
+    width: 50% !important; }
+  #dynamicDecline .landing-page-option-wrapper .header_container h2 {
+    padding-top: 60px !important;
+    font-size: 30px !important; }
+  #returningLoad #collapseCardWithoutTick.profile-accordion .collapse-card__heading, #page-profile #collapseCardWithoutTick .collapse-card__heading {
+    padding: 15px 5rem 4px 1rem !important; }
+  #cash-offer .btnState {
+    padding-bottom: 0 !important; }
+  .overlay.overlay-contentscale .margin-top-lg {
+    padding-left: 4% !important;
+    padding-right: 4% !important; }
+  #congratulationsDealApproved.congratsDetailsSent .card-panel-header-white-gradient.arrow-no-shadow::before {
+    top: 408px !important; }
+  .overlay {
+    padding: 20px !important; }
+  #saved-at .landing-page-option-wrapper h2 {
+    padding-left: 0px;
+    padding-right: 0px; }
+  #page-login-register .cloud_sm_1, #page-login-register .cloud_sm_2, #page-login-register .cloud_bg_1 {
+    width: 25% !important; }
+  #page-register .arrow::before {
+    left: 44.0% !important; }
+  #landing .sun_animated {
+    top: 15px !important; }
+  #landing .cloud_bg_4 {
+    top: 20px;
+    width: 25% !important;
+    right: 1% !important; }
+  #landing .cloud_sm_7 {
+    top: 30px;
+    width: 20% !important; }
+  #landing .cloud_bg_1 {
+    width: 30% !important; }
+  .car-landing-svg {
+    top: 40px !important; }
+  .profile-banner.refreshed-banner::before {
+    left: 46% !important; }
+  .initial-response h2 {
+    margin-top: -10px !important; }
+  .profile-banner.refreshed-banner:not(.returning) {
+    padding: 40px 35px !important; }
+  .btnState {
+    padding-bottom: 10px !important; }
+  #page-returning-update .btnState {
+    padding-bottom: 0px !important; }
+  .initial-response h2 {
+    font-size: 25px !important; }
+  .svg-icon object {
+    width: 50% !important; }
+  #page-login-register .cloud_sm_2 {
+    top: 40px !important;
+    width: 15% !important; }
+  #userVerification #collapseCardWithTick .material-icons {
+    margin-top: 10px; }
+  #view-initial-response-for-a-vehicle .arrow::before {
+    top: 300px !important; }
+  #page_basic_details_AT_none #header-collapse-drawer .AutoTrader_logo {
+    width: 100% !important; }
+  .floating-container.mobile-float.mobile-only {
+    left: 78% !important; }
+  #reviewDetails #review-financial-details .mobile-border-bottom div:nth-child(1) {
+    text-align: left !important; }
+  .small-text-mobile {
+    font-size: 14px !important; }
+  #amount-goal-change .gradient-fill, #car-goal-change .gradient-fill {
+    background-image: none !important; }
+  .dock-bottom-btn {
+    position: fixed;
+    bottom: 54px;
+    left: 30%; }
+  .dock-bottom-words {
+    position: fixed;
+    bottom: 29px;
+    left: 30%; }
+  /* verificationFailure start */
+  #verificationFailure .landing-page-option-wrapper, #dynamicDecline .landing-page-option-wrapper, #applicationReferred .landing-page-option-wrapper, #counterOfferATSearch .landing-page-option-wrapper {
+    height: 200px !important; }
+  #verificationFailure .landing-page-option-wrapper .header_container h2, #applicationReferred .landing-page-option-wrapper .header_container h2 {
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: center;
+    color: #ffffff !important;
+    padding-top: 16% !important; }
+  #counterOfferATSearch .landing-page-option-wrapper .header_container h2 {
+    padding-top: 13% !important; }
+  #verificationFailure .arrow::before, #dynamicDecline .arrow::before, #applicationReferred .arrow::before, #counterOfferATSearch .arrow::before {
+    width: 0px !important;
+    height: 0px !important;
+    background-color: #1097A6 !important;
+    border-color: #1097A6 !important;
+    border-radius: 5px !important;
+    position: absolute !important;
+    margin: 0px !important;
+    top: 178px !important; }
+  #saved-at .arrow::before {
+    margin: 0px !important;
+    top: 124px !important; }
+  #search-auto-trader .arrow::before {
+    margin: 0px !important;
+    top: 70px !important; }
+  #verificationFailure #bottom_section, #dynamicDecline #bottom_section, #applicationReferred #bottom_section, #counterOfferATSearch .arrow::before {
+    margin-top: 35px; }
+  #verificationFailure #bottom_section p, #dynamicDecline #bottom_section p, #applicationReferred #bottom_section p, #counterOfferATSearch #bottom_section p {
+    width: 270px !important; }
+  /* verificationFailure end */
+  .text-small {
+    font-size: 10px !important; }
+  .text-med {
+    font-size: 12px !important; }
+  .text-margin {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    margin-top: 0px !important; }
+  .arrow::before {
+    top: 180px !important;
+    left: 44.8%; }
+  .arrow-no-shadow::before {
+    left: 44.8% !important; }
+  #page-login-register #register-card #terms-section2 #t-and-c {
+    margin-left: 10px !important; }
+  #page-login-register #register-card #terms-check-box-wrap .terms-check-box {
+    margin-top: 0px !important;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left !important; }
+  #settlementAccounts #collapseCardWithTick .collapse-card__heading .collapse-card__title {
+    padding-bottom: 0px !important; }
+  #settlementAccounts #collapseCardWithTick .collapse-card__heading .card-text {
+    font-size: 14px !important;
+    font-weight: normal !important; }
+  #settlementAccounts #collapseCardWithTick .active .card-text {
+    font-size: 18px !important;
+    font-weight: 300 !important; }
+  #settlementAccounts #main_header h1 {
+    color: white; }
+  #settlementAccounts #collapseCardWithTick #good-job .btn-orange {
+    width: 160px !important; }
+  #settlementAccounts #collapseCardWithTick #good-job .gray-text {
+    font-size: 16px !important; }
+  .collapse-card.active h3 {
+    color: #15a3b2 !important;
+    font-size: 18px !important; }
+  .select-wrapper input, .input-field label {
+    font-size: 14px !important; }
+  .user_flow_landing h2 {
+    margin-bottom: 0 !important; }
+  .user_flow_landing p {
+    margin-top: 0 !important; }
+  .collapse-card h3 {
+    font-size: 18px !important; }
+  .back-arrow {
+    margin-left: -20px; }
+  .modal-info .modal-pill-label {
+    font-size: 12px !important; }
+  #dealStructureChangesSettlement .slider-step-header .slider-desc, #page-pre-approval .slider-step-header .slider-desc {
+    font-size: 15px !important; }
+  #dealStructureChangesSettlement .slider-step-header .slider-amount, #page-pre-approval .slider-step-header .slider-amount {
+    font-size: 16px !important; }
+  #dealStructureChangesSettlement .slider-amount span, #page-pre-approval .slider-amount span {
+    bottom: -3px !important;
+    font-weight: 400 !important; }
+  #sellingCurrentCarNonWesBank #correctCar span {
+    font-size: 12px !important; }
+  #sellingCurrentCarNonWesBank .correctCar li h4 {
+    font-size: 16px !important; }
+  #congratulationsDealApproved #whatToDoNextContent1 {
+    margin-left: 15px !important;
+    margin-right: 10px;
+    padding-bottom: 50px !important; }
+  #congratulationsDealApprovedDealerLinked #whatToDoNextContent2 {
+    margin-left: 15px !important;
+    margin-right: 10px;
+    padding-bottom: 150px !important; }
+  #page-update-details .collapse-card.active .collapse-card__title span:before, #reviewDetails .collapse-card.active .collapse-card__title span:before {
+    margin-right: 30px !important; }
+  #page-update-details .collapse-card.active .collapse-card__title span:after, #reviewDetails .collapse-card.active .collapse-card__title span:after {
+    margin-left: 30px !important; }
+  #reviewDetails .collapse-card.active .collapse-card__title span:before {
+    right: 85% !important; }
+  #reviewDetails .collapse-card.active .collapse-card__title span:after {
+    left: 85% !important; }
+  .dock-bottom-words {
+    bottom: -20px !important; } }
+
+@media only screen and (max-width: 358px) {
+  #congratulationsDealApproved.congratsDetailsSent .card-panel-header-white-gradient.second-panel.arrow-no-shadow::before {
+    top: 160px !important; } }
+
+@media only screen and (max-width: 360px) {
+  #dealStructureChangesSettlement p.normal-text .btn-orange, #page-pre-approval p.normal-text .btn-orange {
+    font-size: 14px !important; }
+  #view-initial-response-for-a-vehicle .arrow::before {
+    top: 300px !important; }
+  #landing .sun_animated {
+    width: 20% !important; }
+  #terms-section2.register-terms label {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important; }
+  #userVerification .chip {
+    margin-left: -1rem;
+    margin-right: -1rem;
+    vertical-align: top !important; }
+  #userVerification .chip {
+    height: auto;
+    line-height: normal;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important; }
+  .floating-container.mobile-float.mobile-only {
+    left: 78% !important; }
+  #reviewDetails #review-financial-details .mobile-border-bottom div:nth-child(1) {
+    text-align: left !important; }
+  #reviewDetails .margin-top-lg.twick-size {
+    font-size: 18px; }
+  .mobile-no-padding {
+    padding: 0 !important; }
+  .small-text-mobile {
+    font-size: 14px !important; }
+  #amount-goal-change .gradient-fill, #car-goal-change .gradient-fill {
+    background-image: none !important; }
+  .dock-bottom-btn {
+    position: fixed;
+    bottom: 54px;
+    left: 30%; }
+  .dock-bottom-words {
+    position: fixed;
+    bottom: 29px;
+    left: 30%; }
+  #page-selling-car-not-financed-only #sellingCarExpander .btn-close {
+    left: 262px !important; }
+  /* verificationFailure start */
+  #verificationFailure .landing-page-option-wrapper, #dynamicDecline .landing-page-option-wrapper, #applicationReferred .landing-page-option-wrapper, #counterOfferATSearch .landing-page-option-wrapper {
+    height: 200px !important; }
+  #verificationFailure .landing-page-option-wrapper .header_container h2, #applicationReferred .landing-page-option-wrapper .header_container h2 {
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: center;
+    color: #ffffff !important;
+    padding-top: 18% !important; }
+  #counterOfferATSearch .landing-page-option-wrapper .header_container h2 {
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: center;
+    color: #ffffff !important;
+    padding-top: 18% !important; }
+  #verificationFailure .arrow::before, #dynamicDecline .arrow::before, #applicationReferred .arrow::before, #counterOfferATSearch .arrow::before {
+    width: 0px !important;
+    height: 0px !important;
+    background-color: #1097A6 !important;
+    border-color: #1097A6 !important;
+    border-radius: 5px !important;
+    position: absolute !important;
+    margin: 0px !important;
+    top: 178px !important; }
+  #saved-at .arrow::before {
+    margin: 0px !important;
+    top: 124px !important; }
+  #search-auto-trader .arrow::before {
+    margin: 0px !important;
+    top: 70px !important; }
+  #verificationFailure #bottom_section, #dynamicDecline #bottom_section, #applicationReferred #bottom_section, #counterOfferATSearch #bottom_section {
+    margin-top: 35px; }
+  #verificationFailure #bottom_section p, #dynamicDecline #bottom_section p, #applicationReferred #bottom_section p, #counterOfferATSearch #bottom_section p {
+    width: auto !important; }
+  /* verificationFailure end */
+  .text-small {
+    font-size: 10px !important; }
+  .text-med {
+    font-size: 12px !important; }
+  .text-margin {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    margin-top: 0px !important; }
+  .arrow::before {
+    top: 180px !important;
+    left: 44.5%; }
+  .arrow-no-shadow::before {
+    left: 44.5% !important; }
+  #page-login-register #register-card #terms-section2 #t-and-c {
+    margin-left: 10px !important; }
+  #page-login-register #register-card #terms-check-box-wrap .terms-check-box {
+    margin-top: 0px !important;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left !important; }
+  #settlementAccounts #collapseCardWithTick .collapse-card__heading .collapse-card__title {
+    padding-bottom: 0px !important; }
+  #settlementAccounts #collapseCardWithTick .collapse-card__heading .card-text {
+    font-size: 12px !important;
+    font-weight: normal !important; }
+  #settlementAccounts #collapseCardWithTick .active .card-text {
+    font-size: 13px !important;
+    font-weight: 300 !important; }
+  #settlementAccounts #collapseCardWithTick #good-job .btn-orange {
+    width: 160px !important; }
+  #settlementAccounts #collapseCardWithTick #good-job .gray-text {
+    font-size: 16px !important; }
+  /* Extra Small Devices */
+  #page-profile .user-name h1 {
+    font-size: 20px !important; }
+  #page-profile .profile-container .profile-details {
+    margin-top: 0 !important; }
+  #page-profile .profile-container .user-name {
+    padding-right: 0 !important; }
+  .top-search {
+    margin-left: -10px !important; }
+  .hamburger {
+    margin: 0 !important; }
+  .btn-cover {
+    margin: 0 !important; }
+  #page_user_flow_landing .landing-form {
+    padding: 10px 5px 0 !important; }
+  #page_user_flow_landing .approve-form .terms-check-box {
+    width: 20% !important; }
+  /*page-selling-current-car*/
+  /*#licencePlateExpander {
+top: 140px!important;
+}
+#vinNumberExpander {
+top: 210px!important;
+}*/
+  #amountsOwed li.medium_turquoise h4 {
+    line-height: normal !important; }
+  #amountsOwed #left_scroll {
+    left: 0 !important; }
+  #amountsOwed #right_scroll {
+    right: 0 !important; }
+  #amountsOwed .card-panel-header h2 {
+    font-size: 25px !important; }
+  #amountsOwed .card-panel-header h4 {
+    font-size: 14px !important; }
+  .landingPagePills {
+    margin-top: 0 !important; }
+  #counterOfferATSearch .landing-page-option-wrapper .header_container h2 {
+    padding-top: 18% !important; }
+  #nonFinancedTradeInVin .input-btn-medium {
+    width: 100% !important; } }
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 343px) {
+  #search-auto-trader .arrow::before {
+    top: 90px !important;
+    left: 43% !important; } }
+
+@media only screen and (max-width: 331px) {
+  #congratulationsDealApproved.congratsDetailsSent .card-panel-header-white-gradient.first-panel.arrow-no-shadow::before {
+    top: 481px !important; } }
+
+@media only screen and (max-width: 320px) {
+  #cash-offer .btnState label {
+    padding-top: 0 !important; }
+  .overlay.overlay-contentscale .margin-top-lg {
+    padding-left: 4% !important;
+    padding-right: 4% !important; }
+  #congratulationsDealApproved.congratsNextSteps .svg-dot-right {
+    top: 40px !important; }
+  #landing .btnState [type="radio"] + label {
+    top: 5px !important; }
+  #page-pre-approval.initial-response .btnState [type="radio"] + label {
+    left: 2px !important; }
+  #landing .btnState [type="radio"]:checked + label::after, #landing .btnState .with-gap[type="radio"]:checked + label::before, #landing .btnState .with-gap[type="radio"]:checked + label::after, #page-pre-approval .btnState [type="radio"]:checked + label::after, #page-pre-approval .btnState .with-gap[type="radio"]:checked + label::before, #page-pre-approval .btnState .with-gap[type="radio"]:checked + label::after {
+    top: 15px !important; }
+  #page-pre-approval .slider-wrap-main .interest-rate .btnState [type="radio"]:checked + label::after, #page-pre-approval .slider-wrap-main .interest-rate .btnState .with-gap[type="radio"]:checked + label::before, #page-pre-approval .slider-wrap-main .interest-rate .with-gap[type="radio"]:checked + label::after {
+    top: 22px !important; }
+  #login-register .input-btn-medium {
+    width: 80% !important; }
+  #page-login-register .cloud_sm_2 {
+    width: 20% !important; }
+  #userVerification .chip {
+    margin-left: -1rem;
+    margin-right: -1rem; }
+  #page_basic_details_none .arrow::before {
+    top: 75% !important; }
+  #page_basic_details_AT_none .arrow::before {
+    top: 85% !important; }
+  #page_basic_details_none .dark-gray-background .arrow::before, #page_basic_details_AT_none .dark-gray-background .arrow::before {
+    top: 85% !important; }
+  #page_basic_details_none #basic-details .btnState label, #page_basic_details_AT_none #basic-details-AT .btnState label {
+    padding-top: 5px !important; }
+  #page_basic_details_none #basic-details #terms-check-box-wrap .btnState label, #page_basic_details_AT_none #basic-details-AT #terms-check-box-wrap .btnState label {
+    padding-top: 10px !important; }
+  .btnState {
+    height: auto !important;
+    padding-bottom: 10px !important; }
+  .btnState label {
+    line-height: normal !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    padding-right: 30px !important; }
+  #page-returning-update .btnState label {
+    padding-top: 0px !important; }
+  .floating-container.mobile-float.mobile-only {
+    left: 75% !important; }
+  #reviewDetails #review-financial-details .mobile-border-bottom div:nth-child(1) {
+    text-align: left !important; }
+  .small-text-mobile {
+    font-size: 14px !important; }
+  #amount-goal-change .gradient-fill, #car-goal-change .gradient-fill {
+    background-image: none !important; }
+  .dock-bottom-btn {
+    position: fixed;
+    bottom: 54px;
+    left: 30%; }
+  .dock-bottom-words {
+    position: fixed;
+    bottom: 29px;
+    left: 30%; }
+  #car-goal-change input {
+    float: center !important; }
+  .overlay h2 {
+    font-size: 22px !important; }
+  /* reviewDetails start */
+  #reviewDetails .chip {
+    margin-left: 0px !important;
+    margin-right: 0px !important; }
+  /* reviewDetails end */
+  /* verificationFailure start */
+  #verificationFailure .landing-page-option-wrapper, #dynamicDecline .landing-page-option-wrapper, #applicationReferred .landing-page-option-wrapper, #counterOfferATSearch .landing-page-option-wrapper {
+    height: 200px !important; }
+  #verificationFailure .landing-page-option-wrapper .header_container h2, #applicationReferred .landing-page-option-wrapper .header_container h2, #counterOfferATSearch .landing-page-option-wrapper .header_container h2 {
+    padding-top: 20% !important; }
+  #verificationFailure .arrow::before, #dynamicDecline .arrow::before, #applicationReferred .arrow::before, #counterOfferATSearch .arrow::before {
+    width: 0px !important;
+    height: 0px !important;
+    background-color: #1097A6 !important;
+    border-color: #1097A6 !important;
+    border-radius: 5px !important;
+    position: absolute !important;
+    margin: 0px !important;
+    top: 178px !important; }
+  #saved-at .arrow::before {
+    margin: 0px !important;
+    top: 124px !important; }
+  #search-auto-trader .arrow::before {
+    top: 90px !important; }
+  #verificationFailure #bottom_section, #dynamicDecline #bottom_section, #applicationReferred #bottom_section, #counterOfferATSearch #bottom_section {
+    margin-top: 35px; }
+  /* verificationFailure end */
+  .text-small {
+    font-size: 10px !important;
+    line-height: 1px !important; }
+  .text-med {
+    font-size: 12px !important;
+    line-height: 1px !important; }
+  .text-margin {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    margin-top: 0px !important; }
+  #page-login-register #register-card #terms-section2 #t-and-c {
+    margin-left: 10px !important; }
+  #page-login-register #register-card #terms-check-box-wrap .terms-check-box {
+    margin-top: 0px !important;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left !important; }
+  #settlementAccounts #collapseCardWithTick .collapse-card__heading .card-text {
+    font-size: 12px !important;
+    font-weight: normal !important; }
+  #settlementAccounts #collapseCardWithTick .active .card-text {
+    font-size: 13px !important;
+    font-weight: 400 !important; }
+  #page-profile .user-name h1 {
+    font-size: 15px !important; }
+  #page-profile #edit-btn, #page-profile #update-btn, #page-profile #cancel-btn, #page-profile #remove-btn, #page-profile #done-btn, #page-profile #edit-docs-btn, #page-profile #add-car-btn, #edit-car-details-btn, #page-profile #remove-app-btn, #page-profile #cancel-app-btn, #page-profile #cancel-car-btn, #page-profile #remove-car-details-btn {
+    font-size: 12px !important; }
+  #page-profile .profile-details .text-left, #page-profile .profile-details .text-right {
+    font-size: 11px !important; }
+  header .pro-pic {
+    right: 50%;
+    width: 40px !important;
+    height: 40px; }
+  .top-search {
+    margin-left: -25px;
+    font-size: 35px !important; }
+  .collapse-card.active h3 {
+    color: #15a3b2 !important;
+    font-size: 16px !important; }
+  .collapse-card h3 {
+    font-size: 16px !important; }
+  #reviewDetails .collapse-card__title span, #page-update-details .collapse-card__title span {
+    font-size: 18px !important; }
+  #amountsOwed #left_scroll, #amountsOwed #right_scroll {
+    width: 7% !important; }
+  #page-register .tabs .indicator::before {
+    top: -30px !important;
+    right: 44% !important; }
+  #counterOfferAT .arrow::before {
+    top: 170px !important; }
+  #counterOfferATSearch .landing-page-option-wrapper .header_container h2 {
+    padding-top: 17% !important; }
+  #counterOfferAT .arrow::before {
+    top: 170px !important; }
+  #counterOfferATSearch .landing-page-option-wrapper .header_container h2 {
+    padding-top: 14% !important; }
+  #affordability .svg-dot-right, #intoTrade .svg-dot-right, #personalise .svg-dot-right, #congratulationsDealApproved.congratsNextSteps .svg-dot-right, #congratulationsDealApproved.congratsDetailsSent .svg-dot-right {
+    right: 10% !important;
+    top: 40px; }
+  #almostThere .arrow::before, #almostThereAT .arrow::before {
+    top: 85px !important; }
+  #almostThere .dark-gray-background h4, #almostThereAT .dark-gray-background h4 {
+    padding-left: 35px !important;
+    padding-right: 35px !important; }
+  #nonFinancedTradeInVin .gradient-fill {
+    height: 340px !important; } }

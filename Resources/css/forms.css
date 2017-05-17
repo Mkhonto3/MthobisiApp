@@ -1,0 +1,453 @@
+/* FORM */
+
+label {
+    font-weight: 300 !important;
+}
+
+.input-center {
+    text-align: center!important;
+}
+
+.input-btn-medium {
+    width: 230px;
+}
+
+.input-btn-large {
+    width: 320px!important;
+}
+
+.input-currency {
+    padding-left: 20px!important;
+}
+
+.input-currency-span {
+    position: absolute;
+    left: 10px;
+    top: 6px;
+    color: #7b878e;
+    font-size: 22px;
+}
+
+.input-show-password-span {
+    position: absolute;
+    right: 10px;
+    top: 6px;
+    color: #AEBBC3;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+
+/* TOGGLE SWITCH */
+
+.switch label .lever {
+    height: 30px;
+    width: 70px;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 5px 0 0
+}
+
+.switch label .lever::after {
+    top: -2px;
+    width: 34px;
+    height: 34px;
+    background-color: #fff
+}
+
+.switch label input[type="checkbox"]:checked+.lever::after {
+    left: 40px;
+    background-color: #fff
+}
+
+.switch label input[type="checkbox"]:checked+.lever {
+    background-color: #15a3b2;
+}
+
+input[type="checkbox"]:not(:disabled)~.lever:active::after, input.tabbed[type="checkbox"]:focus:not(:disabled)~.lever::after {
+    box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4)
+}
+
+input[type="checkbox"]:checked:not(:disabled)~.lever:active::after, input.tabbed[type="checkbox"]:checked:focus:not(:disabled)~.lever::after {
+    box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4)
+}
+
+.switch label .lever span {
+    color: #fff!important;
+}
+
+.switch label .lever .inActiveOption {
+    padding-left: 36px;
+    display: none
+}
+
+.switch label .lever .activeOption {
+    padding-left: 10px;
+    display: none
+}
+
+
+/* THESE SHOULD BE IN SECTIONS.CSS
+
+.switch.selling_current_car label .lever .activeOption, .switch.selling_current_car_basic label .lever .activeOption {
+    padding-left: 10px;
+    display: none
+}
+
+.switch.selling_current_car_affordability label .lever .activeOption {
+    padding-right: 25px;
+    display: none
+}
+
+.switch.selling_current_car label .lever .inActiveOption, .switch.selling_current_car_basic label .lever .inActiveOption {
+    padding-left: 36px;
+    display: none
+}
+
+.switch.selling_current_car_affordability label .lever .inActiveOption {
+    padding-left: 20px;
+    display: none
+}
+
+.switch.selling_current_car label .lever span, .switch.selling_current_car_basic label .lever span, .switch.selling_current_car_affordability label .lever span {
+    color: #fff!important;
+}*/
+
+
+/* Date Picker */
+
+.date-picker {
+    width: 100%;
+    height: auto;
+    max-height: 50px;
+    background: white;
+    border-radius: 3px;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: all 0.3s 0s ease-in-out;
+    transition: all 0.3s 0s ease-in-out;
+}
+
+.date-picker .input {
+    width: 100%;
+    height: 50px;
+    font-size: 0;
+    cursor: pointer;
+}
+
+.date-picker .input .result, .date-picker .input button {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.date-picker .input .result {
+    box-sizing: border-box;
+    color: #9e9e9e;
+    font-wight: 100;
+    height: 50px;
+    left: 0;
+    line-height: 1;
+    padding: 0 10px;
+    position: absolute;
+    top: 20px;
+    width: calc(100% - 50px);
+    z-index: 99;
+    cursor: text;
+    font-size: 1rem;
+    transition: all 0.2s ease-out 0s;
+}
+
+.date-picker .input button {
+    width: 50px;
+    height: 50px;
+    background-color: #68D1DB;
+    color: white;
+    line-height: 50px;
+    border: 0;
+    font-size: 18px;
+    padding: 0;
+}
+
+.date-picker .input button:hover {
+    background-color: #15A3B2;
+}
+
+.date-picker .input button:focus {
+    outline: 0;
+}
+
+.date-picker .calendar {
+    position: relative;
+    width: 40%;
+    background: #fff;
+    border-radius: 0px;
+    overflow: hidden;
+    float: right;
+}
+
+.date-picker .ui-datepicker-inline {
+    position: relative;
+    width: 100%;
+}
+
+.date-picker .ui-datepicker-header {
+    height: 100%;
+    line-height: 40px;
+    background: #15A3B2;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.date-picker .ui-datepicker-prev, .date-picker .ui-datepicker-next {
+    width: 20px;
+    height: 20px;
+    text-indent: 9999px;
+    /*border: 2px solid #fff;
+	  border-radius: 100%;*/
+    cursor: pointer;
+    overflow: hidden;
+    margin-top: 12px;
+}
+
+.date-picker .ui-datepicker-prev {
+    float: left;
+    margin-left: 12px;
+}
+
+.date-picker .ui-datepicker-prev:after {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    margin: -36px 0px 0px 8px;
+}
+
+.date-picker .ui-datepicker-next {
+    float: right;
+    margin-right: 12px;
+}
+
+.date-picker .ui-datepicker-next:after {
+    -webkit-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+    margin: -36px 0px 0px 6px;
+}
+
+.date-picker .ui-datepicker-prev:after, .date-picker .ui-datepicker-next:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.date-picker .ui-datepicker-prev:hover, .date-picker .ui-datepicker-next:hover, .date-picker .ui-datepicker-prev:hover:after, .date-picker .ui-datepicker-next:hover:after {
+    border-color: #fff;
+}
+
+.date-picker .ui-datepicker-title {
+    text-align: center;
+}
+
+.date-picker .ui-datepicker-calendar {
+    width: 100%;
+    text-align: center;
+}
+
+.date-picker .ui-datepicker-calendar thead tr th span {
+    display: block;
+    width: 100%;
+    color: #68D1DB;
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+
+.date-picker .ui-state-default {
+    display: block;
+    text-decoration: none;
+    color: #b5b5b5;
+    line-height: 40px;
+    font-size: 12px;
+}
+
+.date-picker .ui-state-default:hover {
+    background: rgba(0, 0, 0, 0.02);
+    border-radius: 100%;
+    color: #15A3B2;
+}
+
+.date-picker .ui-state-highlight {
+    color: #15A3B2;
+}
+
+.date-picker .ui-state-active {
+    color: #ffffff;
+    background-color: #68d1db;
+    font-weight: 600;
+    border-radius: 100%;
+}
+
+.date-picker .ui-datepicker-unselectable .ui-state-default {
+    color: #eee;
+    border: 2px solid transparent;
+}
+
+.date-picker.open {
+    max-height: 400px;
+}
+
+.date-picker.open .input button {
+    display: none;
+}
+
+.ui-datepicker-calendar td, .ui-datepicker-calendar td, .ui-datepicker-calendar th {
+    padding: 0 !important;
+    text-align: center!important;
+}
+
+.ui-datepicker-calendar thead {
+    border-bottom: none!important;
+}
+
+.date-picker-label {
+    color: #9e9e9e;
+    cursor: text;
+    font-size: 0.8rem!important;
+    position: absolute;
+    top: -0.8rem!important;
+    transition: all 0.2s ease-out 0s;
+}
+
+.input-field .date-picker-label label.active {
+    transform: translateY(-140%);
+}
+
+#current_date {
+    background-color: #007582;
+    color: #fff;
+    font-size: 0.8rem;
+    height: 40px;
+    text-align: left;
+    line-height: 2.5rem;
+}
+
+#datepicker_year {
+    background-color: #68d1db;
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.calendar-rows {
+    padding: 0 10px 0 10px;
+}
+
+.calendar-rows i {
+    padding-top: 8px;
+    cursor: pointer;
+}
+
+.user_flow_landing p {
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+.material-icons {
+    text-rendering: optimizeLegibility;
+}
+
+.select-wrapper input {
+    color: #9e9e9e;
+}
+
+.select-wrapper span.caret {
+    color: #7c878e;
+}
+
+.select-wrapper span.caret object.svg {
+    display: block !important;
+    width: 25px;
+    height: auto;
+}
+
+.select-dropdown {
+    font-weight: 300 !important;
+}
+
+.input-note {
+    padding-top: 0!important;
+    font-size: 14px;
+    margin-top: -20px;
+}
+
+.LV_invalid_field {
+    border-bottom: 1px solid #ce3e26 !important;
+    box-shadow: 0 1px 0 0 #ce3e26 !important;
+}
+
+.LV_invalid {
+    color: #ce3e26 !important;
+}
+
+#login-register .input-btn-medium {
+    width: 50%;
+}
+
+input.valid:not([type]), input.valid:focus:not([type]), input.valid[type="text"], input.valid[type="text"]:focus, input.valid[type="password"], input.valid[type="password"]:focus, input.valid[type="email"], input.valid[type="email"]:focus, input.valid[type="url"], input.valid[type="url"]:focus, input.valid[type="time"], input.valid[type="time"]:focus, input.valid[type="date"], input.valid[type="date"]:focus, input.valid[type="datetime"], input.valid[type="datetime"]:focus, input.valid[type="datetime-local"], input.valid[type="datetime-local"]:focus, input.valid[type="tel"], input.valid[type="tel"]:focus, input.valid[type="number"], input.valid[type="number"]:focus, input.valid[type="search"], input.valid[type="search"]:focus, textarea.materialize-textarea.valid, textarea.materialize-textarea.valid:focus {
+    /*border-bottom: 0 !important;*/
+    box-shadow: 0 1px 0 0 #9e9e9e;
+}
+
+.input-field label {
+    color: #7c878e!important;
+}
+
+.input-field label.active {
+    color: #15a3b2 !important;
+}
+
+input {
+    /*lugi commented out, its causing global issues*/
+    /*color: #3c474e !important;*/
+}
+
+input[type=password]::-ms-reveal, input[type=password]::-ms-clear {
+    display: none;
+}
+
+input[type=text]::-ms-clear {
+    display: none;
+}
+
+.overlay label, .overlay input.select-dropdown {
+    color: #ffffff !important;
+}
+
+.overlay input::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #ffffff;
+    opacity: 1;
+}
+
+.overlay input::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #ffffff !important;
+    opacity: 1;
+}
+
+.overlay input:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #ffffff;
+    opacity: 1;
+}
+
+.overlay input:-moz-placeholder {
+    /* Firefox 18- */
+    color: #ffffff;
+    opacity: 1;
+}
+
+.overlay input, .select-wrapper input.select-dropdown {
+    border-color: #ffffff;
+}

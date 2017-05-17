@@ -1,0 +1,204 @@
+.column-height{
+  height: 20px;
+}
+.left-border{
+  border-left: 6px solid #69d2dc;
+}
+.no-background{
+  background:none !important;
+}
+.bottom-line{
+  border-bottom: 1px solid #aebbc3;
+}
+#upload-page .input-btn-medium {
+    float: none;
+}
+
+#upload-file-one:focus, #upload-file-two:focus, #upload-file-three:focus, #upload-file-four:focus, #upload-file-five:focus,
+ #upload-file-one-mob:focus, #upload-file-two-mob:focus, #upload-file-three-mob:focus, #upload-file-four-mob:focus, #upload-file-five-mob:focus {
+    outline: none;
+}
+
+#upload-file-one:hover, #upload-file-two:hover, #upload-file-three:hover, #upload-file-four:hover, #upload-file-five:hover,
+ #upload-file-one-mob:hover, #upload-file-two-mob:hover, #upload-file-three-mob:hover, #upload-file-four-mob:hover, #upload-file-five-mob:hover {
+    background: #007582;
+}
+
+.button-wrapper {
+    width: 450px;
+    text-align: center;
+    /*padding: 0 180px;*/
+    box-sizing: border-box;
+    -webkit-transition: .3s all ease .3s;
+    transition: .3s all ease .3s;
+    position: absolute;
+    /*top: 50%;*/
+    left: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+}
+
+#upload-file-one, #upload-file-two, #upload-file-three, #upload-file-four, #upload-file-five,
+ #upload-file-one-mob, #upload-file-two-mob, #upload-file-three-mob, #upload-file-four-mob, #upload-file-five-mob {
+    width: 220px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #15a3b2;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.24);
+    border: none;
+    /*padding: 10px 0 0px 0;*/
+    cursor: pointer;
+    -webkit-transition: .3s all ease;
+    transition: .3s all ease;
+    position: relative;
+}
+#congratulationsDealApproved #upload-file-one, #congratulationsDealApproved #upload-file-two, #congratulationsDealApproved #upload-file-three, #congratulationsDealApproved #upload-file-four, #congratulationsDealApproved #upload-file-five,
+ #congratulationsDealApproved #upload-file-one-mob, #congratulationsDealApproved #upload-file-two-mob, #congratulationsDealApproved #upload-file-three-mob, #congratulationsDealApproved #upload-file-four-mob, #congratulationsDealApproved #upload-file-five-mob {
+    width: 220px;
+    border-radius: 50px;
+    background-color: #15a3b2;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.24);
+    border: none;
+    /*padding: 10px 0 0px 0;*/
+    cursor: pointer;
+    -webkit-transition: .3s all ease;
+    transition: .3s all ease;
+    position: relative;
+    padding-bottom: 7px;
+}
+
+#upload-file-one p, #upload-file-two p, #upload-file-three p, #upload-file-four p, #upload-file-five p,
+ #upload-file-one-mob p, #upload-file-two-mob p, #upload-file-three-mob p, #upload-file-four-mob p, #upload-file-five-mob p {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 15px;
+    max-height: 40px;
+    -webkit-transition: .3s all ease;
+    transition: .3s all ease;
+}
+
+#upload-file-one .fill, #upload-file-two .fill, #upload-file-three .fill, #upload-file-four .fill, #upload-file-five .fill,
+ #upload-file-one-mob .fill, #upload-file-two-mob .fill, #upload-file-three-mob .fill, #upload-file-four-mob .fill, #upload-file-five-mob .fill {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 0%;
+    background: #69D2DC;
+    border-radius: 50px;
+}
+
+#upload-file-one .fa, #upload-file-two .fa, #upload-file-three .fa, #upload-file-four .fa, #upload-file-five .fa,
+ #upload-file-one-mob .fa, #upload-file-two-mob .fa, #upload-file-three-mob .fa, #upload-file-four-mob .fa, #upload-file-five-mob .fa {
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    line-height: 50px;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+}
+
+.button-wrapper.clicked {
+    padding: 0;
+}
+
+.button-wrapper.clicked #upload-file-one, .button-wrapper.clicked #upload-file-two, .button-wrapper.clicked #upload-file-three, .button-wrapper.clicked #upload-file-four, .button-wrapper.clicked #upload-file-five,
+ .button-wrapper.clicked #upload-file-one-mob, .button-wrapper.clicked #upload-file-two-mob, .button-wrapper.clicked #upload-file-three-mob, .button-wrapper.clicked #upload-file-four-mob, .button-wrapper.clicked #upload-file-five-mob {
+    background: #ccc;
+    /*margin-top: 25px;*/
+    margin-top: -10%;
+    right: 40%;
+    width: 100%;
+    height: 10px;
+    /*padding: 1px 0 0;*/
+    padding: 0;
+}
+#congratulationsDealApproved .button-wrapper.clicked #upload-file-one, #congratulationsDealApproved .button-wrapper.clicked #upload-file-two, #congratulationsDealApproved .button-wrapper.clicked #upload-file-three, #congratulationsDealApproved .button-wrapper.clicked #upload-file-four, #congratulationsDealApproved .button-wrapper.clicked #upload-file-five,
+ #congratulationsDealApproved .button-wrapper.clicked #upload-file-one-mob, #congratulationsDealApproved .button-wrapper.clicked #upload-file-two-mob, #congratulationsDealApproved .button-wrapper.clicked #upload-file-three-mob, #congratulationsDealApproved .button-wrapper.clicked #upload-file-four-mob, #congratulationsDealApproved .button-wrapper.clicked #upload-file-five-mob {
+    background: #ccc;
+    /*margin-top: 25px;*/
+    margin-top: -10%;
+    right: 80%;
+    width: 100%;
+    height: 12px;
+    /*padding: 1px 0 0;*/
+    padding: 0;
+}
+
+.button-wrapper.clicked #upload-file-one p, .button-wrapper.clicked #upload-file-two p, .button-wrapper.clicked #upload-file-three p, .button-wrapper.clicked #upload-file-four p, .button-wrapper.clicked #upload-file-five p,
+ .button-wrapper.clicked #upload-file-one-mob p, .button-wrapper.clicked #upload-file-two-mob p, .button-wrapper.clicked #upload-file-three-mob p, .button-wrapper.clicked #upload-file-four-mob p, .button-wrapper.clicked #upload-file-five-mob p {
+    max-height: 0;
+    overflow: hidden;
+}
+
+.button-wrapper.clicked #upload-file-one .fill, .button-wrapper.clicked #upload-file-two .fill, .button-wrapper.clicked #upload-file-three .fill, .button-wrapper.clicked #upload-file-four .fill, .button-wrapper.clicked #upload-file-five .fill,
+ .button-wrapper.clicked #upload-file-one-mob .fill, .button-wrapper.clicked #upload-file-two-mob .fill, .button-wrapper.clicked #upload-file-three-mob .fill, .button-wrapper.clicked #upload-file-four-mob .fill, .button-wrapper.clicked #upload-file-five-mob .fill {
+    width: 100%;
+    -webkit-transition: .3s all ease .3s;
+    transition: 2s all ease .6s;
+}
+
+.button-wrapper.success #upload-file-one, .button-wrapper.success #upload-file-two, .button-wrapper.success #upload-file-three, .button-wrapper.success #upload-file-four, .button-wrapper.success #upload-file-five,
+ .button-wrapper.success #upload-file-one-mob, .button-wrapper.success #upload-file-two-mob, .button-wrapper.success #upload-file-three-mob, .button-wrapper.success #upload-file-four-mob, .button-wrapper.success #upload-file-five-mob {
+    margin: 0;
+    padding: 18px;
+    width: 50px !important;
+
+    -webkit-transition: .0s all ease 0s;
+    transition: .0s all ease 0s;
+}
+#congratulationsDealApproved .button-wrapper.success #upload-file-one, #congratulationsDealApproved .button-wrapper.success #upload-file-two, #congratulationsDealApproved .button-wrapper.success #upload-file-three, #congratulationsDealApproved .button-wrapper.success #upload-file-four, #congratulationsDealApproved .button-wrapper.success #upload-file-five,
+ #congratulationsDealApproved .button-wrapper.success #upload-file-one-mob, #congratulationsDealApproved .button-wrapper.success #upload-file-two-mob, #congratulationsDealApproved .button-wrapper.success #upload-file-three-mob, #congratulationsDealApproved .button-wrapper.success #upload-file-four-mob, #congratulationsDealApproved .button-wrapper.success #upload-file-five-mob {
+    margin: 0;
+    padding: 18px;
+    width: 40px !important;
+    height: 40px;
+
+    -webkit-transition: .0s all ease 0s;
+    transition: .0s all ease 0s;
+}
+
+.success-tick {
+    margin: 10px;
+    background-image: url(../svg/tickWhite.svg);
+    background-repeat: no-repeat;
+}
+
+.success-tick-cont{
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 50px !important;
+    background-color: #69d2dc !important;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.24) !important;
+    border: none !important;
+    /*padding: 10px 0 0px 0 !important;*/
+    -webkit-transition: .3s all ease !important;
+    transition: .3s all ease !important;
+    position: relative !important;
+}
+.success-ticked {
+    bottom: 0;
+    color: white;
+    font-size: 25px;
+    left: 0;
+    line-height: 50px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block !important;
+}
+/*.button-wrapper.success #upload-file-one .fa, .button-wrapper.success #upload-file-two .fa, .button-wrapper.success #upload-file-three .fa, .button-wrapper.success #upload-file-four .fa, .button-wrapper.success #upload-file-five .fa,
+ .button-wrapper.success #upload-file-one-mob .fa, .button-wrapper.success #upload-file-two-mob .fa, .button-wrapper.success #upload-file-three-mob .fa, .button-wrapper.success #upload-file-four-mob .fa, .button-wrapper.success #upload-file-five-mob .fa {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s all ease .3s;
+    transition: .3s all ease .3s;
+}*/

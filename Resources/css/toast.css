@@ -1,0 +1,12 @@
+/*TOATS (NOTIFICATIONS) */
+#toast-container{ width:350px; top: 85px; right: 0; max-width: 86% !important; left:inherit; position:absolute !important; bottom:inherit !important;}
+#toast-container h4{ font-size: 18px; font-weight: 300; color: #15a3b2; margin:0 0 5px; text-align:left}
+#toast-container p{ color: #7c878e; font-size: 14px; margin:0; text-align: left; line-height: 18px;}
+#toast-container a{ font-size: 14px;color: #f39200; text-transform:uppercase}
+#toast-container .toast{ background:#fff; border-bottom: 1px solid #eee; word-break:normal; display:block; margin: 8px 0; width: 100%; padding:15px 30px 10px 20px}
+#toast-container .toast .btn-close{ background:#d8d8d8; color:#fff; width:20px; height:20px; top:8px; right:8px; font-size:12px; padding:2px 0 2px 2px; line-height:20px}
+#toast-container .toast .btn-close .material-icons{ font-size:16px}
+#toast-container{
+  z-index: 99 !important;
+  height: 100px !important;
+}

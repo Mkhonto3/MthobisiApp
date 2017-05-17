@@ -1,0 +1,164 @@
+.overlay-contentscale {
+    z-index: 1000;
+    visibility: hidden;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    -webkit-transition: -webkit-transform 0.5s, visibility 0s 0.5s;
+    transition: transform 0.5s, visibility 0s 0.5s;
+}
+
+.overlay-contentscale.open {
+    visibility: visible;
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+
+/*.modal-interface-push .card-panel{ margin: 20px; }*/
+
+.modal-interface-push .card-panel .row {
+    margin-bottom: 0;
+}
+
+.overlay-contentscale.open .row {
+    /*padding-left: 20%;
+  padding-right: 20%;*/
+}
+
+
+/*
+	Overlay Styles
+*/
+
+.overlay {
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(60, 71, 78, 0.9);
+    padding: 20px 40px;
+}
+
+.overlay h2 {
+    margin-bottom: 0;
+    color: #fff
+}
+
+.overlay h3 {
+    font-size: 30px
+}
+
+.overlay h3, .overlay h4 {
+    color: #fff;
+    font-weight: 300
+}
+
+.overlay .sub-header {
+    margin-top: 0
+}
+
+.overlay .btn-close {
+    right: 50px !important;
+}
+
+.overlay .btn-close i {
+    bottom: auto !important;
+    left: auto;
+    position: relative !important;
+    right: 5px !important;
+    text-align: center !important;
+    top: 3px !important;
+}
+
+#profile .btn-close {
+    box-shadow: 1px 1px 2px #ccc !important;
+    position: relative;
+    right: 0;
+    top: -30px;
+}
+
+#page-profile #collapseCardWithoutTick .btn-close {
+    right: -5px;
+    top: -30px;
+}
+
+#profile .overlay-close i {
+    font-size: 24px !important;
+    float: none;
+}
+
+
+/*.modalContainer {
+    -webkit-perspective: 1500px;
+    perspective: 1500px;
+}*/
+
+.modalContainer.overlay-open .st-pusher {
+    -webkit-transform: translate3d(0, 0, -300px);
+    transform: translate3d(0, 0, -300px);
+}
+
+.modal-interface-push {}
+
+.overlay-response {
+    padding: 0;
+}
+
+.modal-info {
+    padding-top: 20%;
+}
+
+#pillExpansionModal .modal-info {
+    margin-top: 5%;
+}
+
+.modal-info-pill {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.modal-info .modal-pill-label {
+    font-size: 16px;
+}
+
+.response-modal-btn {
+    float: none;
+}
+
+.mobile-modal-size {
+    font-size: 28px;
+}
+
+.modal-info {
+    margin-top: 20%;
+}
+
+.modal-info .modal-pill-label {
+    font-weight: 400;
+}
+
+al-pill-label {
+    font-size: 16px;
+}
+
+.response-modal-btn {
+    float: none;
+}
+
+.mobile-modal-size {
+    font-size: 28px;
+}
+
+.modal-info {
+    margin-top: 20%;
+}
+
+.modal-info .modal-pill-label {
+    font-weight: 400;
+}

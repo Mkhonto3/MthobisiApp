@@ -1,0 +1,280 @@
+.floating-btn {
+  background-color: #007582;
+  border-radius: 50px;
+  height: 60px;
+  width: 60px;
+  position: fixed;
+  z-index: 10;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  -webkit-transition: box-shadow 0.2s;
+  transition: box-shadow 0.2s; }
+
+.fab-icon {
+  width: 25px; }
+
+.plus {
+  text-align: center !important;
+  font-size: 50px !important;
+  position: relative;
+  top: -8px;
+  font-weight: 200 !important;
+  color: rgba(255, 255, 255, 0.9) !important;
+  -webkit-transition: -webkit-transform 0.1s, left 0.1s;
+  transiton: transform 0.1s, left 0.1s;
+  margin: 0 !important; }
+
+.textpand {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  left: 1px; }
+
+.boxspand {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); }
+
+.action {
+  border-radius: 50px;
+  height: 40px;
+  width: 40px;
+  top: 0px;
+  left: 9px;
+  opacity: 0;
+  margin-bottom: -40px;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
+  /*background-color: #7b878e;*/
+  position: relative;
+  -webkit-transition: top 0.3s, margin-bottom 0.3s, opacity 0.1s;
+  transition: top 0.3s, margin-bottom 0.3s, opacity 0.1s;
+  -webkit-animation-delay: all 0.4s;
+  animation-delay: all 0.4s;
+  -webkit-transition-delay: all 0.4s;
+  transition-delay: all 0.4s; }
+
+.mobile-float .action {
+  top: 275px;
+  left: 0px;
+  margin-bottom: 4px; }
+
+.pos-mobile {
+  left: 0px;
+  right: 0px;
+  bottom: -10px;
+  -webkit-transition: top 0.3s, margin-bottom 0.3s, opacity 0.3s;
+  transition: top 0.3s, margin-bottom 0.3s, opacity 0.3s; }
+
+.pos-desktop {
+  top: 10px;
+  left: 9px;
+  -webkit-transition: top 0.3s, margin-bottom 0.3s, opacity 0.3s;
+  transition: top 0.3s, margin-bottom 0.3s, opacity 0.3s; }
+
+.floating-container.desktop-float .actionive:nth-of-type(1) {
+  top: -165px;
+  opacity: 1; }
+
+.floating-container.desktop-float .actionive:nth-of-type(2) {
+  top: -110px;
+  opacity: 1; }
+
+.floating-container.desktop-float .actionive:nth-of-type(3) {
+  top: -55px;
+  opacity: 1; }
+
+.floating-container.desktop-float .actionive:nth-of-type(4) {
+  top: -55px;
+  opacity: 1; }
+
+.floating-container.mobile-float .actionive:nth-of-type(1) {
+  top: -170px !important;
+  opacity: 1; }
+
+.floating-container.mobile-float .actionive:nth-of-type(2) {
+  top: -115px !important;
+  opacity: 1; }
+
+.floating-container.mobile-float .actionive:nth-of-type(3) {
+  top: -60px !important;
+  opacity: 1; }
+
+.desktop-float {
+  position: fixed;
+  right: 100px;
+  top: 390px;
+  /*bottom: 530px;*/
+  z-index: 999; }
+
+.mobile-float {
+  z-index: 999; }
+
+.fill {
+  height: auto;
+  width: 1px; }
+
+.floating-container .action i {
+  color: #fff; }
+
+.floating-container .action {
+  line-height: 50px;
+  text-align: center; }
+
+.floating-container .action span {
+  background: #f39200 none repeat scroll 0 0;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 10px;
+  line-height: 20px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: -5px;
+  top: -5px;
+  z-index: 999; }
+
+.fab-at .action span {
+  background: #029EE3 none repeat scroll 0 0;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 10px;
+  line-height: 20px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: -5px;
+  top: -5px;
+  z-index: 999; }
+
+.fab-at .action .search-icon-back {
+  background: #029EE3 none repeat scroll 0 0;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 10px;
+  line-height: 20px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: -5px;
+  top: -5px; }
+
+/* fab labels */
+.floating-container .action .fab-top, .floating-container .action .fab-bottom {
+  background: #3c474e;
+  border-radius: 2em;
+  /*border-right: 13px solid #7b878e;*/
+  color: rgba(255, 255, 255, 0);
+  font-size: 14px !important;
+  line-height: 20px;
+  width: 0px;
+  height: 30px;
+  position: absolute;
+  padding-top: 5px;
+  top: 5px;
+  background-position: right top;
+  opacity: 1;
+  z-index: -2; }
+
+.gray-circle {
+  /*background: #7b878e !important;*/
+  border-radius: 2em !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  width: 40px !important;
+  height: 40px !important;
+  position: absolute !important;
+  padding-top: 5px !important;
+  top: 0px !important;
+  left: 0px !important;
+  background-position: right top !important;
+  opacity: 1 !important;
+  z-index: -1 !important; }
+
+.floating-container .action .fab-top {
+  right: 20px; }
+
+.floating-container .action .fab-bottom {
+  right: 20px;
+  /*old left float lugi*/
+  /*left: 50px;*/ }
+
+.fab-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 997; }
+
+.animateFabOverlayIn {
+  -webkit-animation: fadeIn 0.2s forwards;
+  animation: fadeIn 0.2s forwards; }
+
+.animateFabOverlayOut {
+  -webkit-animation: fadeOut 0.2s forwards;
+  animation: fadeOut 0.2s forwards; }
+
+.animateLeft {
+  -webkit-transition: width 0.2s;
+  transition: width 0.2s;
+  -webkit-animation: fadeIn 0.2s forwards;
+  animation: fadeIn 0.2s forwards; }
+
+.animateRight {
+  -webkit-transition: width 0.2s;
+  transition: width 0.2s;
+  -webkit-animation: fadeOut 0.2s forwards;
+  animation: fadeOut 0.2s forwards; }
+
+/* fadeIn */
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+/* fadeOut */
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+/* /////////////////////////////////////// */
+.mobile-float {
+  position: fixed;
+  bottom: 0;
+  left: inherit;
+  right: 0;
+  /*old left float lugi*/
+  /*left: 0;
+    right: inherit;*/ }
+
+.desktop-float div:nth-child(1) i, .desktop-float div:nth-child(3) i, .mobile-float div:nth-child(1) i, .mobile-float div:nth-child(3) i {
+  padding-top: 8px; }
+
+.desktop-float div:nth-child(2) i, .mobile-float div:nth-child(2) i {
+  padding-top: 10px; }
+
+.desktop-float .action {
+  cursor: pointer; }
+
+/*.desktop-float .action:hover{
+background: #ffffff !important;
+}*/
+/*.pos-desktop:hover {
+   background: #ffffff !important;
+}*/
