@@ -60,6 +60,9 @@ bot.dialog('search', function (session, args, next) {
     var city = session.privateConversationData[TownKey] || session.conversationData[TownKey];
     var userName = session.userData[UserKey];
     var msgT = session.message.text.trim();
+   
+  
+   session.reditect('https://www.wesbank.co.za/search?q=%s', encodeURIComponent(msgT))
     session.send('%s, wait a few seconds. Searching for \'%s\' in \'%s\'...', userName, msgT, city);
     session.send('https://www.wesbank.co.za/search?q=%s', encodeURIComponent(msgT));
     session.endDialog();
