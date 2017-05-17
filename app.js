@@ -61,7 +61,7 @@ bot.dialog('search', function (session, args, next) {
     var userName = session.userData[UserKey];
     var msgT = session.message.text.trim();
     session.send('%s, wait a few seconds. Searching for \'%s\' in \'%s\'...', userName, msgT, city);
-    session.send('https://www.google.com/search?q=%s', encodeURIComponent(msgT + ' in ' + city));
+    session.send('https://www.wesbank.co.za/search?q=%s', encodeURIComponent(msgT));
     session.endDialog();
 });
 
@@ -72,7 +72,7 @@ bot.dialog('reset', function (session) {
     delete session.conversationData[TownKey];
     delete session.privateConversationData[TownKey];
     delete session.privateConversationData[UserWelKey];
-    session.endDialog('Ups... I\'m suffering from a memory loss...');
+    session.endDialog('Reseting Successful');
 }).triggerAction({ matches: /^reset/i });
 
 // Settlement Request
